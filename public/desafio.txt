@@ -11,5 +11,6 @@ Criem uma solução para apoiar decisões sobre produtos, encomendas e serviço 
 03 Validem códigos, custos, datas e ocorrências sem encomenda associada.
 
 
-Uma rede de 12 óticas trabalha com 50 modelos de lentes e dois anos de dados sobre encomendas, produção, logística, ocorrências e satisfação.
+Uma rede de 12 óticas trabalha com 50 modelos de lentes e dois anos de dados sobre encomendas, produção,
+logística, ocorrências e satisfação.
 Os custos reais podem diferir das estimativas e as entidades ligam-se por códigos em vários formatos.
