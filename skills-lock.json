@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "skills": {
+    "data-analysis": {
+      "source": "JPeetz/agent-skills",
+      "commit": "26db0773f65ad616095ab36013211cbaf1068051",
+      "sourceType": "github",
+      "skillPath": "skills/data/data-analysis/SKILL.md",
+      "computedHash": "76fff33bb0cfb025f8bc206ee0cd750b9eb2df170d34c55663f5a570e2c1222e"
+    },
+    "design-system": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "8db36338810d0942567b97ce439affd1619fcf31",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/design-system/SKILL.md",
+      "computedHash": "9efdc106c73d8d298b5a90d55c56995840a37f754fb9d498d14e6562bdaadc23"
+    },
+    "exploratory-data-analysis": {
+      "source": "JPeetz/agent-skills",
+      "commit": "26db0773f65ad616095ab36013211cbaf1068051",
+      "sourceType": "github",
+      "skillPath": "skills/data/exploratory-data-analysis/SKILL.md",
+      "computedHash": "ee6764f0428082a704db7fa771ce1cedfe12c1e14afda4f155a6bad4cf76da63"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "83485963700bcf11d5bf78118facb301676b69d918fee2e45a95e7f1a2840f6c"
+    },
+    "hallmark": {
+      "source": "Nutlope/hallmark",
+      "commit": "04977e15f3dfd6ee4b74c887dac3eb52665d6c92",
+      "sourceType": "github",
+      "skillPath": "skills/hallmark/SKILL.md",
+      "computedHash": "e5d4ee5cf0af2dcc81a23ef49b587fbfd71236ff9f9df9da12d3bf347e26e572"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "08bd5bf141cb507f46bd8347890cd985865606f15adf88295ed3a73bc9ad5d96"
+    },
+    "improve": {
+      "source": "shadcn/improve",
+      "commit": "cac56e1ebd3c279aa9153616cfeac7b174ab90f9",
+      "sourceType": "github",
+      "skillPath": "skills/improve/SKILL.md",
+      "computedHash": "9e8fe9ea4f9a0e4155801d1624e38ca23798467bb88b447efaa5120f7b1fe802"
+    },
+    "nextjs-app-router-patterns": {
+      "source": "wshobson/agents",
+      "commit": "c96b5f6552dba32e4492307493ee613581430715",
+      "sourceType": "github",
+      "skillPath": "plugins/frontend-mobile-development/skills/nextjs-app-router-patterns/SKILL.md",
+      "computedHash": "39b84480d3a62355fd1199173dc70b97efe1daf6dbfae560cc7b85e127934a98"
+    },
+    "ponytail": {
+      "source": "DietrichGebert/ponytail",
+      "commit": "ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10",
+      "sourceType": "github",
+      "skillPath": "skills/ponytail/SKILL.md",
+      "computedHash": "56d72677aca02689ac89bd48734e8c19b40ab86716d1257eaf5f1238b43cda6b"
+    },
+    "recharts": {
+      "source": "andy-spike/skills",
+      "commit": "2737eadc3b88390775e71b4e0e4c5e1571607409",
+      "sourceType": "github",
+      "skillPath": "skills/recharts/SKILL.md",
+      "computedHash": "a2c9d5fd941c2fb7596dd1b2ad1e9eb000b2a2efdc57539990ad56ba580550a6"
+    },
+    "shadcn": {
+      "source": "shadcn-ui/ui",
+      "commit": "055aa6b7837b1808456a24beb4c97a677864aa82",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "388962d16c7a4f13aaeee0d8f128e50a87df8553d42ef7988c39c0e1c74a40e8"
+    },
+    "solar-icons": {
+      "source": "saoudi-h/solar-icons",
+      "commit": "ab241e1bf578dcfe45b0197aee59bd9a08b5fe68",
+      "sourceType": "github",
+      "skillPath": "skills/solar-icons/SKILL.md",
+      "computedHash": "994bfc176acc443a74a912f3bfa3214558b5f342d7e39a47942a1e241559f7b2"
+    },
+    "tailwind-design-system": {
+      "source": "wshobson/agents",
+      "commit": "c96b5f6552dba32e4492307493ee613581430715",
+      "sourceType": "github",
+      "skillPath": "plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md",
+      "computedHash": "c807f0c9619e8c389879f55846c2e395956f1073ab6d01a93fbb30b340015ab1"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "8db36338810d0942567b97ce439affd1619fcf31",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "f583fab0f9bfd86aad1baede1c4f6719d70d0b007398b5cbbd2a75936ffcecd1"
+    },
+    "using-superpowers": {
+      "source": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "sourceType": "github",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "computedHash": "6a9104fac7e16c3cec2bc118943aefd331cac35b4cfabd427cea4dc16337c6a5"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "7991ed4fbecdac23f47c1a40c243e00a212a9e7f3604db93959b3ae11dffe299"
+    },
+    "web-artifacts-builder": {
+      "source": "anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "sourceType": "github",
+      "skillPath": "skills/web-artifacts-builder/SKILL.md",
+      "computedHash": "7a081b86fd5068d3ca2c4d9c059956634feff65ccbf1c39c3d34a6e5d0971139"
+    }
+  }
+}
