@@ -1,0 +1,15 @@
+Desafio 07 · Lentes
+Cadeia de lentes
+12 óticas
+50 modelos de lentes
+2 anos de dados
+
+Desafio
+Criem uma solução para apoiar decisões sobre produtos, encomendas e serviço às óticas.
+01 Estimem a contribuição por encomenda com dados de produção, logística e ocorrências.
+02 Comparem produtos e óticas considerando a complexidade e o volume de encomendas.
+03 Validem códigos, custos, datas e ocorrências sem encomenda associada.
+
+
+Uma rede de 12 óticas trabalha com 50 modelos de lentes e dois anos de dados sobre encomendas, produção, logística, ocorrências e satisfação.
+Os custos reais podem diferir das estimativas e as entidades ligam-se por códigos em vários formatos.
