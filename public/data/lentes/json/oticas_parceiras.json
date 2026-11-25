@@ -1,0 +1,134 @@
+[
+ {
+  "id": "O01",
+  "nome": "Otica Lisboa",
+  "cidade": "Lisboa",
+  "regiao": "Norte",
+  "data_adesao": "2012-10-15",
+  "nivel_certificacao": "ouro",
+  "dimensao": "grande",
+  "perfil_clientes": "geral",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O02",
+  "nome": "Otica Porto",
+  "cidade": "Porto",
+  "regiao": "Centro",
+  "data_adesao": "2018-06-15",
+  "nivel_certificacao": "prata",
+  "dimensao": "media",
+  "perfil_clientes": "geral",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O03",
+  "nome": "Otica Braga",
+  "cidade": "Braga",
+  "regiao": "Lisboa",
+  "data_adesao": "2016-11-15",
+  "nivel_certificacao": "prata",
+  "dimensao": "media",
+  "perfil_clientes": "executivo",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O04",
+  "nome": "Otica Coimbra",
+  "cidade": "Coimbra",
+  "regiao": "Sul",
+  "data_adesao": "2012-09-15",
+  "nivel_certificacao": "ouro",
+  "dimensao": "grande",
+  "perfil_clientes": "premium",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O05",
+  "nome": "Otica Faro",
+  "cidade": "Faro",
+  "regiao": "Norte",
+  "data_adesao": "2014-02-15",
+  "nivel_certificacao": "bronze",
+  "dimensao": "media",
+  "perfil_clientes": "geral",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O06",
+  "nome": "Otica Aveiro",
+  "cidade": "Aveiro",
+  "regiao": "Centro",
+  "data_adesao": "2017-12-15",
+  "nivel_certificacao": "ouro",
+  "dimensao": "grande",
+  "perfil_clientes": "executivo",
+  "estado_parceria": "em_revisao"
+ },
+ {
+  "id": "O07",
+  "nome": "Otica Setubal",
+  "cidade": "Setubal",
+  "regiao": "Lisboa",
+  "data_adesao": "2019-10-15",
+  "nivel_certificacao": "ouro",
+  "dimensao": "grande",
+  "perfil_clientes": "geral",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O08",
+  "nome": "Otica Guimaraes",
+  "cidade": "Guimaraes",
+  "regiao": "Norte",
+  "data_adesao": "2019-10-15",
+  "nivel_certificacao": "prata",
+  "dimensao": "media",
+  "perfil_clientes": "infantil",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O09",
+  "nome": "Otica Leiria",
+  "cidade": "Leiria",
+  "regiao": "Centro",
+  "data_adesao": "2017-02-15",
+  "nivel_certificacao": "prata",
+  "dimensao": "pequena",
+  "perfil_clientes": "geral",
+  "estado_parceria": "ativa"
+ },
+ {
+  "id": "O10",
+  "nome": "Otica Viseu",
+  "cidade": "Viseu",
+  "regiao": "Centro",
+  "data_adesao": "2020-06-15",
+  "nivel_certificacao": "ouro",
+  "dimensao": "grande",
+  "perfil_clientes": "premium",
+  "estado_parceria": "em_revisao"
+ },
+ {
+  "id": "O11",
+  "nome": "Otica Evora",
+  "cidade": "Evora",
+  "regiao": "Sul",
+  "data_adesao": "2017-05-15",
+  "nivel_certificacao": "bronze",
+  "dimensao": "pequena",
+  "perfil_clientes": "geral",
+  "estado_parceria": "suspensa"
+ },
+ {
+  "id": "O12",
+  "nome": "Otica Funchal",
+  "cidade": "Funchal",
+  "regiao": "Ilhas",
+  "data_adesao": "2013-12-15",
+  "nivel_certificacao": "prata",
+  "dimensao": "media",
+  "perfil_clientes": "executivo",
+  "estado_parceria": "ativa"
+ }
+]

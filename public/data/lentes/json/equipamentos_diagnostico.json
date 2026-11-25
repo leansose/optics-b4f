@@ -1,0 +1,218 @@
+[
+ {
+  "id": "Q001",
+  "id_otica": "O01",
+  "modelo": "ClearView",
+  "data_instalacao": "2023-03-07",
+  "ultima_manutencao": "2023-09-23",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q002",
+  "id_otica": "O01",
+  "modelo": "OptiScan",
+  "data_instalacao": "2020-10-13",
+  "ultima_manutencao": "2025-12-09",
+  "estado": "ativo",
+  "tipo_tecnologia": "digital"
+ },
+ {
+  "id": "Q003",
+  "id_otica": "O02",
+  "modelo": "OptiScan",
+  "data_instalacao": "2016-04-17",
+  "ultima_manutencao": "2020-11-07",
+  "estado": "ativo",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q004",
+  "id_otica": "O02",
+  "modelo": "VisionPro",
+  "data_instalacao": "2014-02-15",
+  "ultima_manutencao": "2018-04-12",
+  "estado": "manutencao",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q005",
+  "id_otica": "O03",
+  "modelo": "VisionPro",
+  "data_instalacao": "2019-11-03",
+  "ultima_manutencao": "2024-11-25",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q006",
+  "id_otica": "O03",
+  "modelo": "ClearView",
+  "data_instalacao": "2019-07-13",
+  "ultima_manutencao": "2023-01-21",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q007",
+  "id_otica": "O04",
+  "modelo": "OptiScan",
+  "data_instalacao": "2015-05-24",
+  "ultima_manutencao": "2018-09-21",
+  "estado": "ativo",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q008",
+  "id_otica": "O04",
+  "modelo": "VisionPro",
+  "data_instalacao": "2014-12-26",
+  "ultima_manutencao": "2018-01-04",
+  "estado": "ativo",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q009",
+  "id_otica": "O05",
+  "modelo": "OptiScan",
+  "data_instalacao": "2023-02-21",
+  "ultima_manutencao": "2023-09-09",
+  "estado": "ativo",
+  "tipo_tecnologia": "digital"
+ },
+ {
+  "id": "Q010",
+  "id_otica": "O05",
+  "modelo": "OptiScan",
+  "data_instalacao": "2019-03-08",
+  "ultima_manutencao": "2023-12-21",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q011",
+  "id_otica": "O06",
+  "modelo": "OptiScan",
+  "data_instalacao": "2015-07-12",
+  "ultima_manutencao": "2018-12-01",
+  "estado": "ativo",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q012",
+  "id_otica": "O06",
+  "modelo": "VisionPro",
+  "data_instalacao": "2015-02-01",
+  "ultima_manutencao": "2020-12-04",
+  "estado": "ativo",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q013",
+  "id_otica": "O07",
+  "modelo": "VisionPro",
+  "data_instalacao": "2023-09-21",
+  "ultima_manutencao": "2024-06-06",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q014",
+  "id_otica": "O07",
+  "modelo": "ClearView",
+  "data_instalacao": "2019-09-03",
+  "ultima_manutencao": "2024-10-04",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q015",
+  "id_otica": "O08",
+  "modelo": "OptiScan",
+  "data_instalacao": "2021-12-03",
+  "ultima_manutencao": "2023-12-09",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q016",
+  "id_otica": "O08",
+  "modelo": "Precision 3",
+  "data_instalacao": "2021-08-09",
+  "ultima_manutencao": "2025-07-08",
+  "estado": "ativo",
+  "tipo_tecnologia": "digital"
+ },
+ {
+  "id": "Q017",
+  "id_otica": "O09",
+  "modelo": "OptiScan",
+  "data_instalacao": "2021-01-17",
+  "ultima_manutencao": "2024-02-18",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q018",
+  "id_otica": "O09",
+  "modelo": "Precision 3",
+  "data_instalacao": "2022-02-21",
+  "ultima_manutencao": "2023-01-27",
+  "estado": "manutencao",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q019",
+  "id_otica": "O10",
+  "modelo": "ClearView",
+  "data_instalacao": "2014-12-20",
+  "ultima_manutencao": "2021-06-13",
+  "estado": "ativo",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q020",
+  "id_otica": "O10",
+  "modelo": "OptiScan",
+  "data_instalacao": "2017-01-18",
+  "ultima_manutencao": "2018-04-23",
+  "estado": "ativo",
+  "tipo_tecnologia": "analogico"
+ },
+ {
+  "id": "Q021",
+  "id_otica": "O11",
+  "modelo": "VisionPro",
+  "data_instalacao": "2021-03-10",
+  "ultima_manutencao": "2024-10-17",
+  "estado": "ativo",
+  "tipo_tecnologia": "digital"
+ },
+ {
+  "id": "Q022",
+  "id_otica": "O11",
+  "modelo": "OptiScan",
+  "data_instalacao": "2022-08-08",
+  "ultima_manutencao": "2023-02-11",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q023",
+  "id_otica": "O12",
+  "modelo": "VisionPro",
+  "data_instalacao": "2019-08-26",
+  "ultima_manutencao": "2025-04-13",
+  "estado": "ativo",
+  "tipo_tecnologia": "hibrido"
+ },
+ {
+  "id": "Q024",
+  "id_otica": "O12",
+  "modelo": "ClearView",
+  "data_instalacao": "2020-03-27",
+  "ultima_manutencao": "2024-11-23",
+  "estado": "desativado",
+  "tipo_tecnologia": "digital"
+ }
+]
