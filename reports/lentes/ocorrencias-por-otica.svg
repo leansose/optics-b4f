@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="425" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 425" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Ocorrências por ótica</title>
+	
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="425"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-425)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="720" height="425" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22" y="395" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,790) scale(1,-1)">Os modelos encomendados explicam parte da diferença entre óticas</text>
+			<text x="22" y="375" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,750) scale(1,-1)">Percentagem de encomendas com ocorrência, observada e ajustada à distribuição dos 50 modelos na rede</text>
+			<path d="M 150,62 L 150,335 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="142.775" y="43" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,86) scale(1,-1)">0%</text>
+			<path d="M 248,62 L 248,335 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="240.775" y="43" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,86) scale(1,-1)">2%</text>
+			<path d="M 346,62 L 346,335 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="338.775" y="43" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,86) scale(1,-1)">4%</text>
+			<path d="M 444,62 L 444,335 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="436.775" y="43" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,86) scale(1,-1)">6%</text>
+			<path d="M 542,62 L 542,335 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="534.775" y="43" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,86) scale(1,-1)">8%</text>
+			<path d="M 640,62 L 640,335 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="629.995" y="43" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,86) scale(1,-1)">10%</text>
+			<text x="91.664" y="321" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,642) scale(1,-1)">Coimbra</text>
+			<path d="M 607.976598,325 L 424.988978,325 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="607.976598173516" cy="325" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="421.4889782534578" y="321.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="106.988" y="298" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,596) scale(1,-1)">Viseu</text>
+			<path d="M 532.965932,302 L 442.037208,302 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="532.9659318637274" cy="302" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="438.5372081957238" y="298.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="102.99199999999999" y="275" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,550) scale(1,-1)">Aveiro</text>
+			<path d="M 475.093059,279 L 415.528093,279 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="475.09305890081015" cy="279" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="412.0280932859299" y="275.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="105.656" y="252" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,504) scale(1,-1)">Évora</text>
+			<path d="M 451.419558,256 L 437.683147,256 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="451.4195583596214" cy="256" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="434.18314694247294" y="252.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="112.328" y="229" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,458) scale(1,-1)">Faro</text>
+			<path d="M 431.963928,233 L 442.683028,233 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="431.9639278557114" cy="233" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="439.18302840450946" y="229.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="104.984" y="206" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,412) scale(1,-1)">Braga</text>
+			<path d="M 393.262411,210 L 420.784967,210 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="393.26241134751774" cy="210" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="417.2849668507069" y="206.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="94.316" y="183" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,366) scale(1,-1)">Funchal</text>
+			<path d="M 383.270928,187 L 416.782396,187 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="383.27092805562984" cy="187" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="413.282396460188" y="183.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="78.32000000000001" y="160" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,320) scale(1,-1)">Guimarães</text>
+			<path d="M 372.727273,164 L 416.329279,164 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="372.72727272727275" cy="164" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="412.82927868198243" y="160.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="107.66" y="137" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,274) scale(1,-1)">Leiria</text>
+			<path d="M 351.369863,141 L 451.62083,141 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="351.3698630136986" cy="141" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="448.1208300519985" y="137.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="108.32" y="114" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,228) scale(1,-1)">Porto</text>
+			<path d="M 346.199949,118 L 407.206048,118 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="346.19994899260394" cy="118" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="403.70604767616464" y="114.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="96.30799999999999" y="91" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,182) scale(1,-1)">Setúbal</text>
+			<path d="M 335.916399,95 L 400.151263,95 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="335.91639871382637" cy="95" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="396.6512632260966" y="91.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="101.648" y="68" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,136) scale(1,-1)">Lisboa</text>
+			<path d="M 335.881577,72 L 402.097206,72 Z" style="stroke: rgb(60%,66%,70%); stroke-linecap: butt; stroke-width: 2;"/>
+			<circle cx="335.881576777173" cy="72" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<rect x="398.5972064917686" y="68.5" width="7.0" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="458" cy="351" r="4.6" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<text x="469" y="347" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,694) scale(1,-1)">Observada</text>
+			<rect x="542" y="347.5" width="7" height="7.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<text x="556" y="347" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,694) scale(1,-1)">Ajustada</text>
+			<text x="22" y="14" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,28) scale(1,-1)">Fonte: encomendas, ocorrências e óticas parceiras. Encomendas de 2024 e 2025.</text>
+		</g>
+	</g>
+</svg>

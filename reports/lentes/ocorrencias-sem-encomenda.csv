@@ -1,0 +1,186 @@
+﻿id;id_encomenda;id_otica;id_lente;data_registo;tipo_ocorrencia;motivo;quantidade_afetada;custo_estimado;resolucao
+D000011;ENC-9999-292968;O01;L029;2024-02-07;substituicao;avaria;1;124,13;Resolvido
+D000023;ENC-9999-906307;O01;L010;2024-03-09;devolucao;tinte desigual;1;198,72;em_analise
+D000060;ENC-9999-105229;O01;L048;2024-06-19;devolucao;graduacao errada;1;84,68;
+D000066;ENC-9999-012209;O01;L016;2024-06-30;ajuste;tinte desigual;1;15,54;resolvido
+D000067;ENC-9999-086186;O01;L002;2024-07-20;devolucao;tinte desigual;1;293,09;
+D000074;ENC-9999-964137;O01;L034;2024-07-23;retrabalho;montagem;1;86,84;
+D000084;ENC-9999-116861;O01;L017;2024-09-29;ajuste;montagem;1;12,00;substituida
+D000087;ENC-9999-774584;O01;L031;2024-09-17;devolucao;Erro de graduacao;1;83,34;substituida
+D000091;ENC-9999-791303;O01;L038;2024-10-03;substituicao;lente riscada;2;155,34;resolvido
+D000137;ENC-9999-615397;O01;L005;2025-02-10;retrabalho;avaria;1;144,47;Resolvido
+D000147;ENC-9999-502089;O01;L014;2025-03-18;substituicao;erro de graduacao;1;156,89;substituida
+D000188;ENC-9999-161888;O01;L027;2025-09-06;retrabalho;montagem;2;43,86;
+D000195;ENC-9999-562312;O01;L033;2025-09-22;retrabalho;;1;85,88;
+D000197;ENC-9999-404371;O01;L003;2025-09-28;substituicao;Erro de graduacao;1;256,92;substituida
+D000199;ENC-9999-306425;O01;L005;2025-09-20;retrabalho;erro de graduacao;2;138,70;substituida
+D000255;ENC-9999-638275;O02;L039;2024-02-01;ajuste;graduacao errada;1;20,50;
+D000282;ENC-9999-623008;O02;L016;2024-06-06;retrabalho;;1;79,65;Resolvido
+D000291;ENC-9999-073700;O02;L040;2024-07-13;devolucao;erro de graduacao;1;128,70;em_analise
+D000294;ENC-9999-982124;O02;L028;2024-08-14;retrabalho;desconforto;1;82,88;credito
+D000330;ENC-9999-504719;O02;L011;2024-11-21;devolucao;tinte desigual;1;212,81;substituida
+D000340;ENC-9999-716099;O02;L040;2025-01-07;retrabalho;avaria;1;60,34;resolvido
+D000351;ENC-9999-111425;O02;L032;2025-03-02;substituicao;montagem;1;165,13;substituida
+D000365;ENC-9999-621683;O02;L026;2025-04-21;retrabalho;tinte desigual;2;73,53;substituida
+D000396;ENC-9999-363049;O02;L022;2025-10-20;retrabalho;tinte desigual;1;52,09;substituida
+D000433;ENC-9999-832418;O03;L007;2024-02-06;retrabalho;;1;185,11;substituida
+D000440;ENC-9999-785659;O03;L007;2024-02-21;retrabalho;lente riscada;1;160,68;em_analise
+D000459;ENC-9999-941942;O03;L004;2024-05-07;devolucao;erro de graduacao;1;360,43;substituida
+D000473;ENC-9999-794722;O03;L008;2024-05-28;substituicao;tinte desigual;2;406,71;credito
+D000491;ENC-9999-926912;O03;L023;2024-08-03;retrabalho;Erro de graduacao;1;83,28;credito
+D000512;ENC-9999-907052;O03;L013;2024-11-19;retrabalho;desconforto;1;51,89;resolvido
+D000520;ENC-9999-569928;O03;L004;2024-12-10;retrabalho;avaria;1;105,25;em_analise
+D000529;ENC-9999-929444;O03;L017;2025-01-12;substituicao;tinte desigual;1;104,76;credito
+D000550;ENC-9999-360232;O03;L012;2025-02-22;retrabalho;desconforto;1;188,54;resolvido
+D000575;ENC-9999-758732;O03;L003;2025-05-12;substituicao;graduacao errada;1;371,06;em_analise
+D000585;ENC-9999-846558;O03;L003;2025-05-20;devolucao;graduacao errada;1;291,11;credito
+D000586;ENC-9999-756355;O03;L001;2025-06-04;ajuste;;2;35,57;em_analise
+D000598;ENC-9999-242921;O03;L030;2025-07-04;ajuste;graduacao errada;1;11,07;resolvido
+D000619;ENC-9999-643124;O03;L015;2025-10-23;retrabalho;montagem;1;70,14;em_analise
+D000652;ENC-9999-658744;O03;L002;2026-01-13;substituicao;erro de graduacao;1;185,72;
+D000653;ENC-9999-544465;O04;L011;2024-01-13;retrabalho;desconforto;1;147,68;
+D000708;ENC-9999-092497;O04;L003;2024-03-15;retrabalho;avaria;1;219,95;Resolvido
+D000723;ENC-9999-106372;O04;L006;2024-04-03;devolucao;erro de graduacao;1;360,65;em_analise
+D000732;ENC-9999-108282;O04;L002;2024-04-05;retrabalho;montagem;1;204,94;resolvido
+D000741;ENC-9999-397826;O04;L008;2024-04-06;retrabalho;erro de graduacao;1;121,53;resolvido
+D000758;ENC-9999-273557;O04;L003;2024-04-28;substituicao;lente riscada;1;422,90;Resolvido
+D000819;ENC-9999-275056;O04;L007;2024-06-22;ajuste;Erro de graduacao;1;78,23;
+D000826;ENC-9999-600788;O04;L001;2024-07-15;retrabalho;erro de graduacao;1;182,81;resolvido
+D000831;ENC-9999-957696;O04;L009;2024-08-03;devolucao;tinte desigual;1;223,44;em_analise
+D000848;ENC-9999-023959;O04;L003;2024-08-25;retrabalho;erro de graduacao;2;149,17;Resolvido
+D000888;ENC-9999-351660;O04;L006;2024-09-21;substituicao;desconforto;1;406,18;resolvido
+D000921;ENC-9999-604224;O04;L011;2024-11-01;ajuste;erro de graduacao;2;43,69;em_analise
+D000934;ENC-9999-647107;O04;L005;2024-10-27;ajuste;montagem;1;53,00;
+D000935;ENC-9999-454308;O04;L005;2024-11-02;devolucao;erro de graduacao;1;255,35;Resolvido
+D000938;ENC-9999-017931;O04;L011;2024-11-14;devolucao;lente riscada;1;340,16;em_analise
+D000954;ENC-9999-261771;O04;L008;2024-11-24;devolucao;erro de graduacao;1;335,40;resolvido
+D000963;ENC-9999-170560;O04;L003;2024-11-25;retrabalho;;1;145,51;substituida
+D000966;ENC-9999-869686;O04;L002;2024-11-21;devolucao;Erro de graduacao;1;167,99;credito
+D000976;ENC-9999-773027;O04;L005;2024-11-28;substituicao;graduacao errada;1;259,91;Resolvido
+D001003;ENC-9999-508208;O04;L001;2024-12-19;devolucao;erro de graduacao;1;306,27;
+D001006;ENC-9999-228091;O04;L003;2024-12-12;substituicao;erro de graduacao;1;417,15;substituida
+D001024;ENC-9999-533935;O04;L005;2025-01-10;retrabalho;desconforto;1;220,19;substituida
+D001033;ENC-9999-471906;O04;L009;2025-01-04;retrabalho;desconforto;1;210,96;substituida
+D001094;ENC-9999-177021;O04;L011;2025-03-31;retrabalho;desconforto;1;100,51;resolvido
+D001129;ENC-9999-755948;O04;L012;2025-05-10;retrabalho;Erro de graduacao;1;135,14;em_analise
+D001133;ENC-9999-719636;O04;L002;2025-05-19;retrabalho;lente riscada;1;170,67;
+D001140;ENC-9999-505948;O04;L004;2025-05-13;retrabalho;desconforto;1;208,39;em_analise
+D001156;ENC-9999-351827;O04;L009;2025-06-02;retrabalho;lente riscada;1;165,88;substituida
+D001159;ENC-9999-941884;O04;L009;2025-06-04;retrabalho;graduacao errada;1;167,47;em_analise
+D001174;ENC-9999-998568;O04;L007;2025-06-26;retrabalho;;1;150,02;Resolvido
+D001182;ENC-9999-477619;O04;L009;2025-06-24;retrabalho;graduacao errada;1;104,57;credito
+D001186;ENC-9999-829384;O04;L006;2025-07-04;retrabalho;montagem;1;137,41;resolvido
+D001189;ENC-9999-078792;O04;L005;2025-06-28;devolucao;tinte desigual;1;209,76;substituida
+D001192;ENC-9999-996612;O04;L007;2025-07-03;devolucao;graduacao errada;1;304,88;substituida
+D001195;ENC-9999-524552;O04;L011;2025-07-03;substituicao;tinte desigual;1;231,72;substituida
+D001211;ENC-9999-649919;O04;L001;2025-07-21;devolucao;desconforto;1;252,82;Resolvido
+D001223;ENC-9999-607806;O04;L003;2025-08-04;retrabalho;erro de graduacao;1;159,83;substituida
+D001239;ENC-9999-095898;O04;L007;2025-08-16;retrabalho;graduacao errada;1;184,07;resolvido
+D001284;ENC-9999-038367;O04;L008;2025-10-29;retrabalho;montagem;1;172,94;em_analise
+D001313;ENC-9999-415219;O04;L002;2025-11-17;devolucao;tinte desigual;1;316,87;
+D001377;ENC-9999-819084;O05;L001;2024-02-07;retrabalho;montagem;1;133,03;resolvido
+D001397;ENC-9999-752813;O05;L024;2024-05-12;retrabalho;graduacao errada;1;53,52;substituida
+D001405;ENC-9999-201735;O05;L007;2024-05-13;substituicao;;1;327,77;resolvido
+D001414;ENC-9999-577708;O05;L009;2024-07-15;devolucao;Erro de graduacao;1;257,71;
+D001429;ENC-9999-980583;O05;L006;2024-09-24;retrabalho;graduacao errada;1;102,58;em_analise
+D001435;ENC-9999-864713;O05;L005;2024-10-08;devolucao;tinte desigual;1;161,13;Resolvido
+D001439;ENC-9999-524433;O05;L009;2024-10-07;retrabalho;;1;118,14;em_analise
+D001487;ENC-9999-170436;O05;L001;2025-01-18;devolucao;desconforto;1;242,87;substituida
+D001509;ENC-9999-332574;O05;L033;2025-03-12;devolucao;avaria;1;67,55;resolvido
+D001526;ENC-9999-280730;O05;L008;2025-05-26;substituicao;graduacao errada;1;360,29;resolvido
+D001528;ENC-9999-012798;O05;L027;2025-06-02;devolucao;montagem;1;103,54;em_analise
+D001542;ENC-9999-084301;O05;L043;2025-07-17;retrabalho;erro de graduacao;1;56,36;
+D001548;ENC-9999-504325;O05;L031;2025-08-09;retrabalho;avaria;1;70,71;
+D001575;ENC-9999-480170;O05;L035;2025-11-06;retrabalho;;1;78,94;
+D001577;ENC-9999-793263;O05;L017;2025-11-14;ajuste;lente riscada;1;26,58;substituida
+D001586;ENC-9999-734352;O05;L020;2025-11-23;devolucao;avaria;1;121,03;
+D001626;ENC-9999-814170;O06;L001;2024-02-20;retrabalho;erro de graduacao;1;104,27;Resolvido
+D001668;ENC-9999-697339;O06;L009;2024-05-19;retrabalho;graduacao errada;2;208,07;Resolvido
+D001671;ENC-9999-828337;O06;L003;2024-05-24;devolucao;graduacao errada;2;312,62;resolvido
+D001690;ENC-9999-524490;O06;L050;2024-06-30;retrabalho;tinte desigual;1;49,22;
+D001757;ENC-9999-371710;O06;L033;2024-11-30;retrabalho;erro de graduacao;1;74,15;Resolvido
+D001759;ENC-9999-138617;O06;L012;2024-12-17;retrabalho;montagem;1;106,33;credito
+D001773;ENC-9999-312160;O06;L003;2025-01-09;devolucao;montagem;1;220,16;em_analise
+D001812;ENC-9999-949649;O06;L010;2025-04-14;devolucao;;1;244,53;credito
+D001817;ENC-9999-467998;O06;L004;2025-04-07;devolucao;desconforto;1;246,53;
+D001833;ENC-9999-523861;O06;L029;2025-05-12;devolucao;graduacao errada;1;121,14;
+D001837;ENC-9999-200220;O06;L025;2025-05-29;ajuste;tinte desigual;1;29,93;
+D001849;ENC-9999-518434;O06;L005;2025-06-20;substituicao;Erro de graduacao;1;396,39;
+D001868;ENC-9999-338187;O06;L008;2025-08-01;ajuste;montagem;1;58,56;Resolvido
+D001882;ENC-9999-501631;O06;L005;2025-09-05;substituicao;avaria;1;217,04;Resolvido
+D001906;ENC-9999-815128;O06;L038;2025-11-20;devolucao;avaria;2;144,06;Resolvido
+D001932;ENC-9999-242898;O06;L008;2026-01-07;retrabalho;erro de graduacao;1;123,49;Resolvido
+D001938;ENC-9999-774929;O07;L004;2024-01-08;substituicao;montagem;1;270,14;credito
+D001939;ENC-9999-908033;O07;L020;2024-01-20;ajuste;erro de graduacao;1;31,82;substituida
+D001944;ENC-9999-429352;O07;L045;2024-02-17;retrabalho;desconforto;1;50,58;resolvido
+D001947;ENC-9999-156471;O07;L034;2024-02-09;substituicao;erro de graduacao;1;163,53;substituida
+D001953;ENC-9999-539653;O07;L016;2024-03-06;retrabalho;montagem;1;46,04;resolvido
+D001982;ENC-9999-888247;O07;L040;2024-06-24;retrabalho;avaria;1;85,88;substituida
+D001988;ENC-9999-748608;O07;L005;2024-07-20;retrabalho;erro de graduacao;1;211,39;
+D001996;ENC-9999-834387;O07;L003;2024-08-10;retrabalho;desconforto;1;189,77;
+D002008;ENC-9999-005837;O07;L019;2024-08-30;retrabalho;lente riscada;1;58,09;Resolvido
+D002017;ENC-9999-416612;O07;L001;2024-09-11;devolucao;lente riscada;1;273,05;
+D002023;ENC-9999-995179;O07;L021;2024-10-01;substituicao;Erro de graduacao;1;134,90;em_analise
+D002038;ENC-9999-996759;O07;L024;2024-11-19;retrabalho;desconforto;1;52,86;Resolvido
+D002050;ENC-9999-734213;O07;L015;2024-12-10;devolucao;lente riscada;1;113,41;credito
+D002067;ENC-9999-777006;O07;L023;2024-12-16;retrabalho;lente riscada;2;89,12;substituida
+D002069;ENC-9999-965505;O07;L048;2024-12-29;devolucao;tinte desigual;2;69,32;credito
+D002074;ENC-9999-680043;O07;L024;2025-01-08;devolucao;lente riscada;1;135,73;Resolvido
+D002082;ENC-9999-675676;O07;L009;2025-01-25;substituicao;lente riscada;1;222,50;resolvido
+D002091;ENC-9999-393122;O07;L032;2025-02-24;retrabalho;tinte desigual;1;88,58;em_analise
+D002096;ENC-9999-777359;O07;L006;2025-03-16;retrabalho;montagem;1;220,35;Resolvido
+D002112;ENC-9999-063515;O07;L012;2025-04-26;retrabalho;desconforto;1;104,38;credito
+D002128;ENC-9999-288927;O07;L047;2025-05-28;retrabalho;erro de graduacao;1;53,42;em_analise
+D002183;ENC-9999-878420;O07;L002;2025-11-25;ajuste;tinte desigual;1;44,03;Resolvido
+D002191;ENC-9999-949535;O07;L014;2026-01-01;retrabalho;erro de graduacao;1;76,38;substituida
+D002192;ENC-9999-147993;O07;L049;2025-12-28;retrabalho;avaria;2;47,09;resolvido
+D002212;ENC-9999-788822;O08;L039;2024-03-03;retrabalho;lente riscada;1;88,62;resolvido
+D002218;ENC-9999-337017;O08;L006;2024-03-12;devolucao;graduacao errada;1;299,73;Resolvido
+D002226;ENC-9999-231803;O08;L050;2024-04-30;retrabalho;;2;54,53;em_analise
+D002236;ENC-9999-599656;O08;L029;2024-06-10;retrabalho;montagem;2;55,50;credito
+D002242;ENC-9999-767568;O08;L043;2024-07-08;retrabalho;montagem;1;69,76;credito
+D002246;ENC-9999-710273;O08;L023;2024-07-30;ajuste;graduacao errada;1;30,01;
+D002250;ENC-9999-061427;O08;L034;2024-08-23;substituicao;tinte desigual;1;105,86;
+D002280;ENC-9999-059588;O08;L030;2024-12-27;devolucao;Erro de graduacao;1;110,08;Resolvido
+D002283;ENC-9999-785352;O08;L002;2025-01-19;substituicao;avaria;1;406,69;substituida
+D002298;ENC-9999-192173;O08;L034;2025-04-25;devolucao;graduacao errada;1;64,10;resolvido
+D002330;ENC-9999-331111;O08;L029;2025-09-02;devolucao;graduacao errada;1;104,66;
+D002340;ENC-9999-391055;O08;L037;2025-10-19;substituicao;erro de graduacao;1;172,72;
+D002377;ENC-9999-271735;O09;L049;2024-05-17;ajuste;Erro de graduacao;1;31,54;em_analise
+D002425;ENC-9999-159527;O09;L013;2025-04-23;retrabalho;graduacao errada;1;48,82;em_analise
+D002433;ENC-9999-614960;O09;L050;2025-08-28;retrabalho;Erro de graduacao;1;57,69;em_analise
+D002453;ENC-9999-105857;O09;L050;2025-12-16;ajuste;tinte desigual;1;33,15;resolvido
+D002467;ENC-9999-206905;O10;L023;2024-02-08;substituicao;avaria;2;169,73;credito
+D002493;ENC-9999-347260;O10;L005;2024-03-22;devolucao;desconforto;1;177,87;
+D002498;ENC-9999-579287;O10;L011;2024-04-07;substituicao;tinte desigual;1;186,13;em_analise
+D002503;ENC-9999-969468;O10;L040;2024-04-21;devolucao;montagem;1;89,03;em_analise
+D002525;ENC-9999-144950;O10;L016;2024-05-16;retrabalho;tinte desigual;1;84,44;resolvido
+D002547;ENC-9999-378820;O10;L006;2024-06-17;retrabalho;graduacao errada;1;128,88;credito
+D002588;ENC-9999-651976;O10;L006;2024-09-17;substituicao;Erro de graduacao;1;196,11;credito
+D002611;ENC-9999-980829;O10;L003;2024-10-29;devolucao;;1;351,41;
+D002653;ENC-9999-699562;O10;L003;2024-12-20;devolucao;Erro de graduacao;1;182,84;substituida
+D002698;ENC-9999-998200;O10;L008;2025-01-24;devolucao;;1;352,93;credito
+D002707;ENC-9999-999667;O10;L008;2025-02-17;devolucao;tinte desigual;1;282,00;em_analise
+D002718;ENC-9999-566910;O10;L004;2025-02-26;retrabalho;tinte desigual;2;153,90;substituida
+D002792;ENC-9999-792229;O10;L038;2025-07-11;retrabalho;tinte desigual;1;85,67;
+D002810;ENC-9999-055817;O10;L010;2025-09-04;substituicao;erro de graduacao;1;208,00;substituida
+D002816;ENC-9999-875935;O10;L008;2025-09-12;substituicao;avaria;1;334,17;credito
+D002862;ENC-9999-876983;O10;L017;2025-12-21;devolucao;lente riscada;1;147,34;credito
+D002865;ENC-9999-026800;O10;L011;2025-12-17;ajuste;montagem;1;30,93;
+D002868;ENC-9999-411126;O10;L011;2025-12-29;devolucao;;1;277,45;credito
+D002886;ENC-9999-892644;O11;L039;2024-02-02;substituicao;graduacao errada;1;173,70;credito
+D002889;ENC-9999-408050;O11;L001;2024-02-04;substituicao;avaria;1;452,30;resolvido
+D002901;ENC-9999-079903;O11;L010;2024-05-15;devolucao;;1;180,70;resolvido
+D002932;ENC-9999-622461;O11;L012;2024-12-15;retrabalho;Erro de graduacao;1;168,90;resolvido
+D002947;ENC-9999-774454;O11;L001;2025-02-15;devolucao;;1;307,91;em_analise
+D002962;ENC-9999-273234;O11;L008;2025-04-15;devolucao;tinte desigual;1;358,62;resolvido
+D002969;ENC-9999-671926;O11;L008;2025-05-10;devolucao;graduacao errada;1;301,90;Resolvido
+D003002;ENC-9999-102859;O11;L002;2025-11-21;ajuste;avaria;1;80,12;resolvido
+D003064;ENC-9999-541525;O12;L004;2024-09-03;retrabalho;avaria;1;212,90;
+D003112;ENC-9999-100752;O12;L001;2025-02-11;retrabalho;Erro de graduacao;1;183,05;substituida
+D003136;ENC-9999-037304;O12;L040;2025-06-11;retrabalho;;1;40,55;Resolvido
+D003157;ENC-9999-524992;O12;L008;2025-08-24;devolucao;avaria;1;255,85;
+D003159;ENC-9999-811836;O12;L025;2025-09-19;retrabalho;desconforto;1;40,73;em_analise
+D003175;ENC-9999-992685;O12;L030;2025-11-18;substituicao;lente riscada;1;103,47;em_analise
+D003178;ENC-9999-233534;O12;L050;2025-12-08;retrabalho;lente riscada;1;55,40;resolvido
+D003197;ENC-9999-200349;O12;L035;2026-01-09;retrabalho;tinte desigual;1;64,34;

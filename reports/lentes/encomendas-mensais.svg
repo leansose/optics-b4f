@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="330" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Encomendas mensais</title>
+	
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="330"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-330)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="720" height="330" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22" y="300" style="font-family: Helvetica-Bold; font-size: 20px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,600) scale(1,-1)">Novembro e dezembro concentram a procura nos dois anos</text>
+			<text x="22" y="280" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,560) scale(1,-1)">Encomendas distintas por mês</text>
+			<path d="M 62,62 L 689,62 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="47.44" y="59.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,118) scale(1,-1)">0</text>
+			<path d="M 62,88.5 L 689,88.5 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="36.32" y="85.5" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,171) scale(1,-1)">500</text>
+			<path d="M 62,115 L 689,115 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="27.979999999999997" y="112.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,224) scale(1,-1)">1 000</text>
+			<path d="M 62,141.5 L 689,141.5 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="27.979999999999997" y="138.5" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,277) scale(1,-1)">1 500</text>
+			<path d="M 62,168 L 689,168 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="27.979999999999997" y="165.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,330) scale(1,-1)">2 000</text>
+			<path d="M 62,194.5 L 689,194.5 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="27.979999999999997" y="191.5" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,383) scale(1,-1)">2 500</text>
+			<path d="M 62,221 L 689,221 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="27.979999999999997" y="218.0" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,436) scale(1,-1)">3 000</text>
+			<path d="M 62,247.5 L 689,247.5 Z" style="stroke: rgb(84%,88%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="27.979999999999997" y="244.5" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,489) scale(1,-1)">3 500</text>
+			<text x="55.134" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">jan</text>
+			<text x="111.0235" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">fev</text>
+			<text x="167.529" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">mar</text>
+			<text x="224.942" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">abr</text>
+			<text x="279.6105" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">mai</text>
+			<text x="337.634" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">jun</text>
+			<text x="395.971" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">jul</text>
+			<text x="449.7155" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">ago</text>
+			<text x="506.2155" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">set</text>
+			<text x="563.942" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">out</text>
+			<text x="619.221" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">nov</text>
+			<text x="675.721" y="44" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,88) scale(1,-1)">dez</text>
+			<polyline points="64 167.417, 120.5 163.919, 177 175.102, 233.5 166.834, 290 167.894, 346.5 170.279, 403 146.005, 459.5 143.885, 516 171.392, 572.5 171.657, 629 230.699, 685.5 237.642" style="stroke: rgb(12%,40%,59%); stroke-linecap: butt; stroke-width: 2.4; fill: None; fill-rule: evenodd;"/>
+			<circle cx="64.0" cy="167.417" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="120.5" cy="163.91899999999998" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="177.0" cy="175.102" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="233.5" cy="166.834" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="290.0" cy="167.894" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="346.5" cy="170.279" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="403.0" cy="146.005" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="459.5" cy="143.885" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="516.0" cy="171.392" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="572.5" cy="171.65699999999998" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="629.0" cy="230.69899999999998" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<circle cx="685.5" cy="237.642" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,59%); fill-rule: evenodd;"/>
+			<path d="M 492,272 L 511,272 Z" style="stroke: rgb(12%,40%,59%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<text x="517" y="268" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(12%,40%,59%); stroke:none;" transform="translate(0,536) scale(1,-1)">2024</text>
+			<polyline points="64 169.537, 120.5 164.979, 177 169.537, 233.5 162.753, 290 174.36, 346.5 165.88, 403 143.673, 459.5 144.68, 516 168.901, 572.5 166.198, 629 233.72, 685.5 233.879" style="stroke: rgb(63%,29%,6%); stroke-linecap: butt; stroke-width: 2.4; fill: None; fill-rule: evenodd; stroke-dasharray: 4, 2;"/>
+			<circle cx="64.0" cy="169.53699999999998" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="120.5" cy="164.97899999999998" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="177.0" cy="169.53699999999998" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="233.5" cy="162.753" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="290.0" cy="174.36" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="346.5" cy="165.88" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="403.0" cy="143.673" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="459.5" cy="144.68" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="516.0" cy="168.901" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="572.5" cy="166.19799999999998" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="629.0" cy="233.72" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<circle cx="685.5" cy="233.879" r="3.3" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,29%,6%); fill-rule: evenodd;"/>
+			<path d="M 575,272 L 594,272 Z" style="stroke: rgb(63%,29%,6%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<text x="600" y="268" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(63%,29%,6%); stroke:none;" transform="translate(0,536) scale(1,-1)">2025</text>
+			<text x="22" y="14" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,28) scale(1,-1)">Fonte: encomendas_lentes, janeiro de 2024 a dezembro de 2025. Contagem sem duplicados.</text>
+		</g>
+	</g>
+</svg>
