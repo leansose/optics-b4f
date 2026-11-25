@@ -1,0 +1,25 @@
+﻿id;id_otica;modelo;data_instalacao;ultima_manutencao;estado;tipo_tecnologia
+Q001;O01;ClearView;2023-03-07;2023-09-23;ativo;hibrido
+Q002;O01;OptiScan;2020-10-13;2025-12-09;ativo;digital
+Q003;O02;OptiScan;2016-04-17;2020-11-07;ativo;analogico
+Q004;O02;VisionPro;2014-02-15;2018-04-12;manutencao;analogico
+Q005;O03;VisionPro;2019-11-03;2024-11-25;ativo;hibrido
+Q006;O03;ClearView;2019-07-13;2023-01-21;ativo;hibrido
+Q007;O04;OptiScan;2015-05-24;2018-09-21;ativo;analogico
+Q008;O04;VisionPro;2014-12-26;2018-01-04;ativo;analogico
+Q009;O05;OptiScan;2023-02-21;2023-09-09;ativo;digital
+Q010;O05;OptiScan;2019-03-08;2023-12-21;ativo;hibrido
+Q011;O06;OptiScan;2015-07-12;2018-12-01;ativo;analogico
+Q012;O06;VisionPro;2015-02-01;2020-12-04;ativo;analogico
+Q013;O07;VisionPro;2023-09-21;2024-06-06;ativo;hibrido
+Q014;O07;ClearView;2019-09-03;2024-10-04;ativo;hibrido
+Q015;O08;OptiScan;2021-12-03;2023-12-09;ativo;hibrido
+Q016;O08;Precision 3;2021-08-09;2025-07-08;ativo;digital
+Q017;O09;OptiScan;2021-01-17;2024-02-18;ativo;hibrido
+Q018;O09;Precision 3;2022-02-21;2023-01-27;manutencao;hibrido
+Q019;O10;ClearView;2014-12-20;2021-06-13;ativo;analogico
+Q020;O10;OptiScan;2017-01-18;2018-04-23;ativo;analogico
+Q021;O11;VisionPro;2021-03-10;2024-10-17;ativo;digital
+Q022;O11;OptiScan;2022-08-08;2023-02-11;ativo;hibrido
+Q023;O12;VisionPro;2019-08-26;2025-04-13;ativo;hibrido
+Q024;O12;ClearView;2020-03-27;2024-11-23;desativado;digital

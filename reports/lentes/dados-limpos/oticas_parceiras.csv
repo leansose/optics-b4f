@@ -1,0 +1,13 @@
+﻿id;nome;cidade;regiao;data_adesao;nivel_certificacao;dimensao;perfil_clientes;estado_parceria
+O01;Otica Lisboa;Lisboa;Norte;2012-10-15;ouro;grande;geral;ativa
+O02;Otica Porto;Porto;Centro;2018-06-15;prata;media;geral;ativa
+O03;Otica Braga;Braga;Lisboa;2016-11-15;prata;media;executivo;ativa
+O04;Otica Coimbra;Coimbra;Sul;2012-09-15;ouro;grande;premium;ativa
+O05;Otica Faro;Faro;Norte;2014-02-15;bronze;media;geral;ativa
+O06;Otica Aveiro;Aveiro;Centro;2017-12-15;ouro;grande;executivo;em_revisao
+O07;Otica Setubal;Setubal;Lisboa;2019-10-15;ouro;grande;geral;ativa
+O08;Otica Guimaraes;Guimaraes;Norte;2019-10-15;prata;media;infantil;ativa
+O09;Otica Leiria;Leiria;Centro;2017-02-15;prata;pequena;geral;ativa
+O10;Otica Viseu;Viseu;Centro;2020-06-15;ouro;grande;premium;em_revisao
+O11;Otica Evora;Evora;Sul;2017-05-15;bronze;pequena;geral;suspensa
+O12;Otica Funchal;Funchal;Ilhas;2013-12-15;prata;media;executivo;ativa

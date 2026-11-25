@@ -1,0 +1,93 @@
+{
+  "custos_logistica": {
+    "linhas_origem": 51374,
+    "duplicados_exatos_removidos": 0,
+    "linhas_limpas": 51374,
+    "datas_convertidas": {
+      "data": 0
+    },
+    "associacao_encomenda": {
+      "associada": 51374
+    }
+  },
+  "encomendas_lentes": {
+    "linhas_origem": 52401,
+    "duplicados_exatos_removidos": 1027,
+    "linhas_limpas": 51374,
+    "datas_convertidas": {
+      "data_encomenda": 1383,
+      "data_entrega_prevista": 0,
+      "data_entrega_real": 0
+    },
+    "associacao_encomenda": {
+      "associada": 51374
+    }
+  },
+  "equipamentos_diagnostico": {
+    "linhas_origem": 24,
+    "duplicados_exatos_removidos": 0,
+    "linhas_limpas": 24,
+    "datas_convertidas": {
+      "data_instalacao": 0,
+      "ultima_manutencao": 0
+    }
+  },
+  "feedback_oticas": {
+    "linhas_origem": 4215,
+    "duplicados_exatos_removidos": 0,
+    "linhas_limpas": 4215,
+    "datas_convertidas": {
+      "data": 0
+    },
+    "associacao_encomenda": {
+      "sem_codigo": 2539,
+      "associada": 1676
+    }
+  },
+  "lentes_catalogo": {
+    "linhas_origem": 50,
+    "duplicados_exatos_removidos": 0,
+    "linhas_limpas": 50,
+    "datas_convertidas": {}
+  },
+  "oticas_parceiras": {
+    "linhas_origem": 12,
+    "duplicados_exatos_removidos": 0,
+    "linhas_limpas": 12,
+    "datas_convertidas": {
+      "data_adesao": 0
+    }
+  },
+  "producao": {
+    "linhas_origem": 51374,
+    "duplicados_exatos_removidos": 0,
+    "linhas_limpas": 51374,
+    "datas_convertidas": {
+      "data_inicio": 0,
+      "data_fim": 0
+    },
+    "associacao_encomenda": {
+      "associada": 51374
+    }
+  },
+  "retrabalho_devolucoes": {
+    "linhas_origem": 3201,
+    "duplicados_exatos_removidos": 0,
+    "linhas_limpas": 3201,
+    "datas_convertidas": {
+      "data_registo": 0
+    },
+    "associacao_encomenda": {
+      "associada": 3016,
+      "sem_correspondencia_exata": 185
+    }
+  },
+  "transformacoes": {
+    "fontes": "JSON de origem, equivalentes aos CSV verificados anteriormente",
+    "duplicados": "Apenas linhas integralmente iguais; identificadores originais preservados.",
+    "datas": "Datas dia/mês/ano convertidas para ano-mês-dia; datas ISO preservadas.",
+    "codigos": "Código normalizado acrescentado apenas após associação exata. Os códigos originais são preservados.",
+    "categorias": "Acrescentadas colunas em minúsculas para motivos, resoluções e comentários. Sinónimos não são fundidos.",
+    "valores_em_falta": "Não foram imputados valores nem corrigidas datas ou quantidades inconsistentes."
+  }
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "id":"L001",
+    "modelo":"Lente 001",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":4,
+    "preco_base":263.02,
+    "custo_base_estimado":138.19,
+    "duracao_producao_dias":9
+  },
+  {
+    "id":"L002",
+    "modelo":"Lente 002",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":4,
+    "preco_base":196.36,
+    "custo_base_estimado":90.49,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L003",
+    "modelo":"Lente 003",
+    "categoria":"progressiva",
+    "tipo_tratamento":"uv",
+    "complexidade":4,
+    "preco_base":292.42,
+    "custo_base_estimado":169.27,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L004",
+    "modelo":"Lente 004",
+    "categoria":"progressiva",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":4,
+    "preco_base":216.72,
+    "custo_base_estimado":130.43,
+    "duracao_producao_dias":9
+  },
+  {
+    "id":"L005",
+    "modelo":"Lente 005",
+    "categoria":"progressiva",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":5,
+    "preco_base":284.54,
+    "custo_base_estimado":150.62,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L006",
+    "modelo":"Lente 006",
+    "categoria":"progressiva",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":5,
+    "preco_base":167.01,
+    "custo_base_estimado":94.55,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L007",
+    "modelo":"Lente 007",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":4,
+    "preco_base":279.16,
+    "custo_base_estimado":141.08,
+    "duracao_producao_dias":9
+  },
+  {
+    "id":"L008",
+    "modelo":"Lente 008",
+    "categoria":"progressiva",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":4,
+    "preco_base":219.27,
+    "custo_base_estimado":105.73,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L009",
+    "modelo":"Lente 009",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":5,
+    "preco_base":180.79,
+    "custo_base_estimado":88.33,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L010",
+    "modelo":"Lente 010",
+    "categoria":"progressiva",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":5,
+    "preco_base":267.17,
+    "custo_base_estimado":158.05,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L011",
+    "modelo":"Lente 011",
+    "categoria":"progressiva",
+    "tipo_tratamento":"blue_cut",
+    "complexidade":4,
+    "preco_base":272.04,
+    "custo_base_estimado":160.91,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L012",
+    "modelo":"Lente 012",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":5,
+    "preco_base":288.76,
+    "custo_base_estimado":144.1,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L013",
+    "modelo":"Lente 013",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":3,
+    "preco_base":269.2,
+    "custo_base_estimado":130.29,
+    "duracao_producao_dias":5
+  },
+  {
+    "id":"L014",
+    "modelo":"Lente 014",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":3,
+    "preco_base":161.18,
+    "custo_base_estimado":90.75,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L015",
+    "modelo":"Lente 015",
+    "categoria":"progressiva",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":2,
+    "preco_base":272.83,
+    "custo_base_estimado":144.06,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L016",
+    "modelo":"Lente 016",
+    "categoria":"progressiva",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":2,
+    "preco_base":251.0,
+    "custo_base_estimado":117.84,
+    "duracao_producao_dias":4
+  },
+  {
+    "id":"L017",
+    "modelo":"Lente 017",
+    "categoria":"progressiva",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":3,
+    "preco_base":266.94,
+    "custo_base_estimado":145.77,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L018",
+    "modelo":"Lente 018",
+    "categoria":"progressiva",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":3,
+    "preco_base":282.4,
+    "custo_base_estimado":153.66,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L019",
+    "modelo":"Lente 019",
+    "categoria":"progressiva",
+    "tipo_tratamento":"standard",
+    "complexidade":3,
+    "preco_base":249.47,
+    "custo_base_estimado":113.57,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L020",
+    "modelo":"Lente 020",
+    "categoria":"progressiva",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":3,
+    "preco_base":229.87,
+    "custo_base_estimado":119.41,
+    "duracao_producao_dias":5
+  },
+  {
+    "id":"L021",
+    "modelo":"Lente 021",
+    "categoria":"unifocal",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":1,
+    "preco_base":87.67,
+    "custo_base_estimado":40.32,
+    "duracao_producao_dias":3
+  },
+  {
+    "id":"L022",
+    "modelo":"Lente 022",
+    "categoria":"unifocal",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":2,
+    "preco_base":59.07,
+    "custo_base_estimado":33.23,
+    "duracao_producao_dias":5
+  },
+  {
+    "id":"L023",
+    "modelo":"Lente 023",
+    "categoria":"unifocal",
+    "tipo_tratamento":"blue_cut",
+    "complexidade":2,
+    "preco_base":72.85,
+    "custo_base_estimado":41.01,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L024",
+    "modelo":"Lente 024",
+    "categoria":"unifocal",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":1,
+    "preco_base":65.32,
+    "custo_base_estimado":31.25,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L025",
+    "modelo":"Lente 025",
+    "categoria":"unifocal",
+    "tipo_tratamento":"blue_cut",
+    "complexidade":1,
+    "preco_base":46.14,
+    "custo_base_estimado":26.43,
+    "duracao_producao_dias":3
+  },
+  {
+    "id":"L026",
+    "modelo":"Lente 026",
+    "categoria":"unifocal",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":2,
+    "preco_base":68.09,
+    "custo_base_estimado":36.44,
+    "duracao_producao_dias":4
+  },
+  {
+    "id":"L027",
+    "modelo":"Lente 027",
+    "categoria":"unifocal",
+    "tipo_tratamento":"uv",
+    "complexidade":1,
+    "preco_base":52.62,
+    "custo_base_estimado":27.67,
+    "duracao_producao_dias":5
+  },
+  {
+    "id":"L028",
+    "modelo":"Lente 028",
+    "categoria":"unifocal",
+    "tipo_tratamento":"standard",
+    "complexidade":1,
+    "preco_base":64.05,
+    "custo_base_estimado":35.69,
+    "duracao_producao_dias":4
+  },
+  {
+    "id":"L029",
+    "modelo":"Lente 029",
+    "categoria":"unifocal",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":2,
+    "preco_base":63.09,
+    "custo_base_estimado":29.66,
+    "duracao_producao_dias":4
+  },
+  {
+    "id":"L030",
+    "modelo":"Lente 030",
+    "categoria":"unifocal",
+    "tipo_tratamento":"blue_cut",
+    "complexidade":1,
+    "preco_base":93.09,
+    "custo_base_estimado":52.96,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L031",
+    "modelo":"Lente 031",
+    "categoria":"bifocal",
+    "tipo_tratamento":"uv",
+    "complexidade":3,
+    "preco_base":133.93,
+    "custo_base_estimado":78.0,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L032",
+    "modelo":"Lente 032",
+    "categoria":"bifocal",
+    "tipo_tratamento":"uv",
+    "complexidade":3,
+    "preco_base":174.52,
+    "custo_base_estimado":86.61,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L033",
+    "modelo":"Lente 033",
+    "categoria":"bifocal",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":2,
+    "preco_base":118.68,
+    "custo_base_estimado":62.6,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L034",
+    "modelo":"Lente 034",
+    "categoria":"bifocal",
+    "tipo_tratamento":"anti_reflexo",
+    "complexidade":3,
+    "preco_base":128.21,
+    "custo_base_estimado":70.32,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L035",
+    "modelo":"Lente 035",
+    "categoria":"bifocal",
+    "tipo_tratamento":"uv",
+    "complexidade":2,
+    "preco_base":125.91,
+    "custo_base_estimado":72.9,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L036",
+    "modelo":"Lente 036",
+    "categoria":"bifocal",
+    "tipo_tratamento":"standard",
+    "complexidade":3,
+    "preco_base":174.75,
+    "custo_base_estimado":97.27,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L037",
+    "modelo":"Lente 037",
+    "categoria":"bifocal",
+    "tipo_tratamento":"standard",
+    "complexidade":2,
+    "preco_base":162.57,
+    "custo_base_estimado":75.49,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L038",
+    "modelo":"Lente 038",
+    "categoria":"bifocal",
+    "tipo_tratamento":"blue_cut",
+    "complexidade":3,
+    "preco_base":147.42,
+    "custo_base_estimado":78.72,
+    "duracao_producao_dias":5
+  },
+  {
+    "id":"L039",
+    "modelo":"Lente 039",
+    "categoria":"fotocromatica",
+    "tipo_tratamento":"standard",
+    "complexidade":3,
+    "preco_base":159.58,
+    "custo_base_estimado":74.62,
+    "duracao_producao_dias":5
+  },
+  {
+    "id":"L040",
+    "modelo":"Lente 040",
+    "categoria":"fotocromatica",
+    "tipo_tratamento":"uv",
+    "complexidade":4,
+    "preco_base":190.52,
+    "custo_base_estimado":115.7,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L041",
+    "modelo":"Lente 041",
+    "categoria":"fotocromatica",
+    "tipo_tratamento":"uv",
+    "complexidade":3,
+    "preco_base":189.73,
+    "custo_base_estimado":104.44,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L042",
+    "modelo":"Lente 042",
+    "categoria":"fotocromatica",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":2,
+    "preco_base":122.74,
+    "custo_base_estimado":65.3,
+    "duracao_producao_dias":7
+  },
+  {
+    "id":"L043",
+    "modelo":"Lente 043",
+    "categoria":"fotocromatica",
+    "tipo_tratamento":"uv",
+    "complexidade":2,
+    "preco_base":213.93,
+    "custo_base_estimado":113.97,
+    "duracao_producao_dias":4
+  },
+  {
+    "id":"L044",
+    "modelo":"Lente 044",
+    "categoria":"fotocromatica",
+    "tipo_tratamento":"standard",
+    "complexidade":3,
+    "preco_base":178.88,
+    "custo_base_estimado":97.88,
+    "duracao_producao_dias":8
+  },
+  {
+    "id":"L045",
+    "modelo":"Lente 045",
+    "categoria":"tratamento_especial",
+    "tipo_tratamento":"blue_cut",
+    "complexidade":3,
+    "preco_base":107.35,
+    "custo_base_estimado":54.36,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L046",
+    "modelo":"Lente 046",
+    "categoria":"tratamento_especial",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":3,
+    "preco_base":112.07,
+    "custo_base_estimado":50.84,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L047",
+    "modelo":"Lente 047",
+    "categoria":"tratamento_especial",
+    "tipo_tratamento":"standard",
+    "complexidade":1,
+    "preco_base":142.63,
+    "custo_base_estimado":67.58,
+    "duracao_producao_dias":6
+  },
+  {
+    "id":"L048",
+    "modelo":"Lente 048",
+    "categoria":"tratamento_especial",
+    "tipo_tratamento":"blue_cut",
+    "complexidade":1,
+    "preco_base":115.4,
+    "custo_base_estimado":65.12,
+    "duracao_producao_dias":3
+  },
+  {
+    "id":"L049",
+    "modelo":"Lente 049",
+    "categoria":"tratamento_especial",
+    "tipo_tratamento":"standard",
+    "complexidade":1,
+    "preco_base":88.12,
+    "custo_base_estimado":50.54,
+    "duracao_producao_dias":5
+  },
+  {
+    "id":"L050",
+    "modelo":"Lente 050",
+    "categoria":"tratamento_especial",
+    "tipo_tratamento":"premium_multicamada",
+    "complexidade":1,
+    "preco_base":136.86,
+    "custo_base_estimado":82.9,
+    "duracao_producao_dias":3
+  }
+]
