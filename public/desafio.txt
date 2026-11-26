@@ -11,6 +11,100 @@ Criem uma solução para apoiar decisões sobre produtos, encomendas e serviço 
 03 Validem códigos, custos, datas e ocorrências sem encomenda associada.
 
 
-Uma rede de 12 óticas trabalha com 50 modelos de lentes e dois anos de dados sobre encomendas, produção,
-logística, ocorrências e satisfação.
+Uma rede de 12 óticas trabalha com 50 modelos de lentes e dois anos de dados sobre encomendas, produção, logística, ocorrências e satisfação.
 Os custos reais podem diferir das estimativas e as entidades ligam-se por códigos em vários formatos.
+
+###################################################################################
+
+Kamel
+1- Models L001–L012 have a problem rate 3.24 times higher than the other 38 models.
+
+2- Why Does the Coimbra Store Need Attention ?
+    It has:
+        - 655 orders affected by issues.
+        - The highest order volume in the network.
+        - 84.9% of its orders involve models L001–L012.
+
+3- Service: When Do We Need to Increase Operational Capacity?
+    Order Volume Throughout the Year =>
+        During November and December:
+            - 2024: 6,497 orders received.
+            - 2025: 6,483 orders received.
+    That's approximately 106 orders per day in both years.
+    In July and August, the average was around 50 orders per day.
+    Conclusion: Order volume at the end of the year is almost more than twice the summer period.
+    This means the company needs to prepare greater production and operational capacity during November and December.
+
+4- Order Delivery Delays
+
+Out of a total of **49,343 delivered orders:**
+
+| Delivery Status        | Number of Orders |
+| ---------------------- | ---------------- |
+| Delivered on time      | 20,898           |
+| Delayed by 1 day       | 20,979           |
+| Delayed by 2 to 9 days | 7,466            |
+
+Orders delayed by 2 to 9 days represent **15.1% of total deliveries**, but account for **66.1% of all delay days**.
+This makes them the most important group to investigate.
+
+**There is a data issue that prevents us from accurately identifying the source of delays:**
+
+- All production records end either on the expected delivery date, one day before it, or two days before it.
+- The logistics record date always matches the order creation date.
+
+**The data does not include:**
+
+- The actual date the order was shipped.
+- The date the carrier received the order.
+
+Therefore, we cannot conclusively determine whether the delays are caused by production or transportation.
+as a solution: Add the shipping date and the date the carrier receives the order.
+
+###################################################################################
+
+** Quick summury: **
+1- Models L001–L012
+They account for 33.6% of orders but are responsible for approximately 80.8% of the total cost of order-related issues.
+
+2- Financial Review
+ - "Production Costs"
+    Different interpretations of production costs per order versus per lens change the estimated contribution from €4.73 million to €2.51 million.
+
+** Problems and Solutions
+## **Main Problems and Proposed Solutions**
+
+| Problem                                                                                                                                    | Proposed Solution                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| **1. Unclear Production Costs:** It is not clear whether `custo_real` represents the total cost per order or the cost per individual lens. | Confirm with the production team and then adopt the correct calculation method.         |
+| **2. High Problem Rates in Models L001–L012:** They account for 33.6% of orders but are responsible for 80.8% of the total problem costs.  | Review the manufacturing process and quality of these models, starting with model L001. |
+| **3. Low-Priced Orders and Negative Profitability:** 923 delivered orders had a negative contribution.                                     | Review discounts and invoices and verify that prices are correct.                       |
+| **4. Delivery Delays:** 15.1% of delivered orders were delayed by two or more days.                                                        | Record shipping dates and carrier receipt dates to identify the source of delays.       |
+| **5. Problems Not Linked to Orders:** 185 issues, worth €29,736.69, have no matching order.                                                | Review the codes and try to link each issue to the correct order.                       |
+| **6. Duplicate Orders:** There are 1,027 duplicate records.                                                                                | Remove exact duplicates before analysis to avoid inflating the numbers.                 |
+| **7. Inaccurate Customer Satisfaction Data:** Some ratings are not linked to orders or were recorded before delivery.                      | Link ratings to the correct orders and only consider ratings submitted after delivery.  |
+| **8. Differences in Optical Store Performance:** Some stores handle more complex models than others.                                       | Compare store performance after adjusting the results for model type and complexity.    |
+
+** Based on the report's findings, we should focus on four key actions: **
+
+1. **Production:** Review production costs and the quality of models L001–L012.
+2. **Financial:** Confirm the method used to calculate production costs and review orders with negative contributions.
+3. **Logistics:** Add shipping dates and carrier receipt dates to identify the causes of delays.
+4. **Data Quality:** Fix mismatched codes, duplicate records, and missing data.
+
+###################################################################################
+    ** UI/UX **
+
+1- The application displays two metrics side by side: 
+| Coimbra                                                                               | Result |
+| ------------------------------------------------------------------------------------- | ------ |
+| Percentage of orders with issues among actual orders                                  | 9.35%  |
+| Problem rate after adjusting the comparison to match the network's model distribution | 5.61%  |
+
+2- Decision Simulator: Test Decisions Before Implementation
+    - Display multiple scenarios, such as improvements of 5%, 10%, and 15%.
+
+###################################################################################
+    ** Notes and quistions **
+
+1- why we have a repeted orders orders
