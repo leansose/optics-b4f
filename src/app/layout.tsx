@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 export const metadata: Metadata = {
   title: "Opticmizer · Decisões sobre lentes",
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-PT">
-      <body>{children}</body>
+      <body>
+        <SiteHeader />
+        {children}
+      </body>
     </html>
   );
 }

@@ -16,7 +16,15 @@ export interface Incident {
   id_otica: string;
   custo_estimado: number;
   tipo_ocorrencia: string;
+  resolucao_normalizada: string | null;
   motivo: string | null;
+}
+export interface Feedback {
+  id_otica: string;
+  id_encomenda: string | null;
+  data: string;
+  categoria_feedback: string;
+  satisfacao_geral: number;
 }
 export interface Shop {
   id: string;
@@ -25,6 +33,7 @@ export interface Shop {
 export interface Lens {
   id: string;
   categoria: string;
+  custo_base_estimado: number;
   complexidade: number;
 }
 export interface Production {
@@ -37,6 +46,8 @@ export interface Shipping {
   custo: number;
 }
 export interface Totals {
+  pendingAdjustments: number;
+  catalogCost: number;
   orders: number;
   affected: number;
   delivered: number;
@@ -54,6 +65,9 @@ export interface Segment {
   totals: Totals;
 }
 export interface OrderExample {
+  shop: string;
+  lens: string;
+  adjustmentOnly?: boolean;
   recordId?: string;
   code: string;
   quantity: number;
@@ -63,6 +77,13 @@ export interface OrderExample {
   incident: number;
 }
 export interface Network {
+  reviews: {
+    shop: string;
+    lens: string;
+    count: number;
+    score: number;
+    lowThemes: Record<string, number>;
+  }[];
   shops: Shop[];
   lenses: Lens[];
   segments: Segment[];

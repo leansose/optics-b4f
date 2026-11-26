@@ -1,4 +1,5 @@
 import type {
+  Feedback,
   Incident,
   Lens,
   Network,
@@ -17,9 +18,15 @@ export const number = (v: number, digits = 0) =>
     minimumFractionDigits: digits,
     maximumFractionDigits: digits,
   });
-export const money = (cents: number) => number(cents / 100, 2);
+const euros = new Intl.NumberFormat("pt-PT", {
+  style: "currency",
+  currency: "EUR",
+});
+export const money = (cents: number) => euros.format(cents / 100);
 const cents = (n: number) => Math.round(n * 100);
 export const emptyTotals = (): Totals => ({
+  pendingAdjustments: 0,
+  catalogCost: 0,
   orders: 0,
   affected: 0,
   delivered: 0,
@@ -46,6 +53,7 @@ export function prepareNetwork(
   production: Production[],
   shipping: Shipping[],
   incidents: Incident[],
+  feedback: Feedback[],
   duplicates: number,
   convertedDates: number,
 ): Network {
@@ -61,6 +69,51 @@ export function prepareNetwork(
       r.id_encomenda,
       (costs.get(r.id_encomenda) ?? 0) + cents(r.custo_estimado),
     );
+  const otherEvents = new Set(
+    incidents
+      .filter((e) => e.tipo_ocorrencia !== "ajuste")
+      .map((e) => e.id_encomenda),
+  );
+  const pending = new Map<string, number>();
+  for (const event of incidents) {
+    if (
+      event.tipo_ocorrencia === "ajuste" &&
+      event.resolucao_normalizada === "em_analise"
+    )
+      pending.set(
+        event.id_encomenda,
+        (pending.get(event.id_encomenda) ?? 0) + 1,
+      );
+  }
+  const catalog = new Map(
+    lenses.map((l) => [l.id, cents(l.custo_base_estimado)]),
+  );
+  const byCode = new Map(orders.map((o) => [o.id_encomenda, o]));
+  const reviews = new Map<string, Network["reviews"][number]>();
+  for (const review of feedback) {
+    const order = review.id_encomenda && byCode.get(review.id_encomenda);
+    const lens =
+      order &&
+      order.id_otica === review.id_otica &&
+      order.data_entrega_real &&
+      review.data >= order.data_entrega_real
+        ? order.id_lente
+        : "";
+    const key = `${review.id_otica}/${lens}`;
+    const row: Network["reviews"][number] = reviews.get(key) ?? {
+      shop: review.id_otica,
+      lens,
+      count: 0,
+      score: 0,
+      lowThemes: {},
+    };
+    if (review.satisfacao_geral < 4)
+      row.lowThemes[review.categoria_feedback] =
+        (row.lowThemes[review.categoria_feedback] ?? 0) + 1;
+    row.count++;
+    row.score += review.satisfacao_geral;
+    reviews.set(key, row);
+  }
   const segments = new Map<string, Segment>();
   const operators = new Map<
     string,
@@ -100,6 +153,7 @@ export function prepareNetwork(
       row.affected += Number(costs.has(id));
       operators.set(operator, row);
     }
+    t.pendingAdjustments += pending.get(id) ?? 0;
     t.orders++;
     t.affected += Number(costs.has(id));
     t.incidentCost += event;
@@ -110,6 +164,11 @@ export function prepareNetwork(
       throw new Error(`Custo em falta na encomenda ${id}`);
     const sales = cents(o.valor_total);
     const detail = {
+      shop: o.id_otica,
+      lens: o.id_lente,
+      ...(costs.has(id) && !otherEvents.has(id)
+        ? { adjustmentOnly: true }
+        : {}),
       recordId: o.id,
       code: id,
       quantity: o.quantidade,
@@ -120,6 +179,7 @@ export function prepareNetwork(
     };
     orderDetails.push(detail);
     t.delivered++;
+    t.catalogCost += (catalog.get(o.id_lente) ?? 0) * o.quantidade;
     t.sales += sales;
     t.production += p;
     t.perLens += p * o.quantidade;
@@ -134,6 +194,7 @@ export function prepareNetwork(
     if (id === "2024/000017") example = detail;
   }
   return {
+    reviews: [...reviews.values()],
     shops,
     lenses,
     segments: [...segments.values()],
@@ -177,14 +238,27 @@ export function compareShops(network: Network) {
     })
     .sort((a, b) => b.observed - a.observed);
 }
+export function matchesSelection(
+  row: { shop: string; lens: string },
+  shop: string,
+  lens: string,
+) {
+  return (
+    (shop === "all" || shop === row.shop) &&
+    (lens === "all" ||
+      (lens === "priority" ? isPriority(row.lens) : lens === row.lens))
+  );
+}
+export function beforeIncident(order: OrderExample, perLens: boolean) {
+  return (
+    order.sales -
+    order.production * (perLens ? order.quantity : 1) -
+    order.shipping
+  );
+}
 export function simulate(rows: Segment[], s: Scenario) {
   const t = sumSegments(
-    rows.filter(
-      (r) =>
-        (s.shop === "all" || r.shop === s.shop) &&
-        (s.lens === "all" ||
-          (s.lens === "priority" ? isPriority(r.lens) : s.lens === r.lens)),
-    ),
+    rows.filter((row) => matchesSelection(row, s.shop, s.lens)),
   );
   const production = s.unit ? t.perLens : t.production;
   const base = t.sales - production - t.shipping - t.deliveredIncidentCost;

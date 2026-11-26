@@ -3,7 +3,7 @@ import type { Scenario } from "@/types";
 
 const initial: Scenario = {
   shop: "all",
-  lens: "priority",
+  lens: "all",
   unit: false,
   reduction: 10,
   productionChange: 0,
