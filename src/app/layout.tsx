@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import { SiteHeader } from "@/components/site-header";
+import { FiltersProvider } from "@/lib/filters";
+import { I18nProvider } from "@/lib/i18n";
 import "./globals.css";
+
 export const metadata: Metadata = {
-  title: "Opticmizer · Decisões sobre lentes",
+  title: { default: "Opticmizer", template: "%s · Opticmizer" },
   description:
-    "Comparação de óticas e simulação da contribuição de encomendas de lentes.",
+    "Produção, finanças e qualidade das encomendas de uma rede de óticas.",
 };
+
 export default function RootLayout({
   children,
 }: {
@@ -14,8 +18,14 @@ export default function RootLayout({
   return (
     <html lang="pt-PT">
       <body>
-        <SiteHeader />
-        {children}
+        <I18nProvider>
+          <FiltersProvider>
+            <SiteHeader />
+            <main id="conteudo" tabIndex={-1}>
+              {children}
+            </main>
+          </FiltersProvider>
+        </I18nProvider>
       </body>
     </html>
   );

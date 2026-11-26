@@ -1,50 +1,60 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { create } from "zustand";
 
 export type Language = "pt" | "en";
 export type Theme = "light" | "dark";
+type FontSize = 100 | 115 | 130;
 
-const useSettings = create<{
+export const usePreferences = create<{
   language: Language;
   theme: Theme;
-  setLanguage: (v: Language) => void;
-  setTheme: (v: Theme) => void;
+  fontSize: FontSize;
+  setLanguage: (language: Language) => void;
+  setTheme: (theme: Theme) => void;
+  setFontSize: (fontSize: FontSize) => void;
 }>((set) => ({
   language: "pt",
   theme: "light",
+  fontSize: 100,
   setLanguage: (language) => set({ language }),
   setTheme: (theme) => set({ theme }),
+  setFontSize: (fontSize) => set({ fontSize }),
 }));
-export function usePreferences() {
-  const { language, theme, setLanguage, setTheme } = useSettings();
-  const [ready, setReady] = useState(false);
 
+export function useDocumentPreferences() {
   useEffect(() => {
     try {
-      const savedLanguage = localStorage.getItem("opticmizer-language");
-      const savedTheme = localStorage.getItem("opticmizer-theme");
-      if (savedLanguage === "pt" || savedLanguage === "en")
-        setLanguage(savedLanguage);
-      if (savedTheme === "light" || savedTheme === "dark") setTheme(savedTheme);
+      const language = localStorage.getItem("opticmizer-language");
+      const theme = localStorage.getItem("opticmizer-theme");
+      const fontSize = Number(localStorage.getItem("opticmizer-font-size"));
+      usePreferences.setState({
+        language: language === "en" ? "en" : "pt",
+        theme: theme === "dark" ? "dark" : "light",
+        fontSize: fontSize === 115 || fontSize === 130 ? fontSize : 100,
+      });
     } catch {
-      // The controls still work when browser storage is unavailable.
+      /* Preferences also work in memory. */
     }
-    setReady(true);
-  }, [setLanguage, setTheme]);
-
-  useEffect(() => {
-    if (!ready) return;
-    document.documentElement.lang = language === "pt" ? "pt-PT" : "en";
-    document.documentElement.dataset.theme = theme;
-    try {
-      localStorage.setItem("opticmizer-language", language);
-      localStorage.setItem("opticmizer-theme", theme);
-    } catch {
-      // Keep preferences in memory for this session.
+    function apply({
+      language,
+      theme,
+      fontSize,
+    }: ReturnType<typeof usePreferences.getState>) {
+      const root = document.documentElement;
+      root.lang = language === "pt" ? "pt-PT" : "en";
+      root.dataset.theme = theme;
+      root.style.fontSize = `${fontSize}%`;
+      try {
+        localStorage.setItem("opticmizer-language", language);
+        localStorage.setItem("opticmizer-theme", theme);
+        localStorage.setItem("opticmizer-font-size", String(fontSize));
+      } catch {
+        /* Storage may be disabled by the browser. */
+      }
     }
-  }, [language, theme, ready]);
-
-  return { language, setLanguage, theme, setTheme };
+    apply(usePreferences.getState());
+    return usePreferences.subscribe(apply);
+  }, []);
 }

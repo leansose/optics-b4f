@@ -58,13 +58,16 @@ export function Dashboard({ data }: { data: Network }) {
     }))
     .sort((a, b) => b.incidentCost - a.incidentCost);
   function openSimulator() {
-    router.push("/simulador");
+    router.push("/simulador/encomendas");
   }
   return (
-    <main className="mx-auto w-full max-w-[1170px] px-4 md:px-10" id="inicio">
+    <div
+      className="legacy mx-auto w-full max-w-[1380px] px-4 sm:px-7 lg:px-12"
+      id="inicio"
+    >
       <div className="flex flex-wrap items-center justify-between gap-4 pt-10 pb-6">
         <div>
-          <h1>{t("Visão geral da rede", "Network overview")}</h1>
+          <h1>{t("Comparação de óticas", "Optician comparison")}</h1>
         </div>
         <span className="inline-flex items-center gap-2 rounded-full border border-line px-3 py-2 text-sm">
           <CalendarDays size={16} />{" "}
@@ -163,7 +166,10 @@ export function Dashboard({ data }: { data: Network }) {
           </button>
         </div>
       </div>
-      <section className="my-5 rounded-xl border border-line bg-surface p-5 md:p-8 last:mb-12 [&>p]:my-3" id="comparar">
+      <section
+        className="my-5 rounded-xl border border-line bg-surface p-5 md:p-8 last:mb-12 [&>p]:my-3"
+        id="comparar"
+      >
         <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
           <div>
             <p className="mb-2 flex items-center gap-2 text-sm font-semibold">
@@ -349,7 +355,10 @@ export function Dashboard({ data }: { data: Network }) {
           </div>
         )}
       </section>
-      <section className="my-5 rounded-xl border border-line bg-surface p-5 md:p-8 last:mb-12 [&>p]:my-3" id="investigar">
+      <section
+        className="my-5 rounded-xl border border-line bg-surface p-5 md:p-8 last:mb-12 [&>p]:my-3"
+        id="investigar"
+      >
         <p className="mb-2 flex items-center gap-2 text-sm font-semibold">
           <Focus size={16} />{" "}
           {t("Investigação das ocorrências", "Incident investigation")}
@@ -442,6 +451,6 @@ export function Dashboard({ data }: { data: Network }) {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

@@ -1,6 +1,8 @@
-import { SimulatorPage } from "@/components/simulator-page";
-import { loadNetwork } from "@/services/data";
-export const metadata = { title: "Simulador de contribuição | Opticmizer" };
-export default async function Page() {
-  return <SimulatorPage data={await loadNetwork()} />;
+import type { Metadata } from "next";
+import { SimulatorDashboard } from "@/components/dashboards/simulator-dashboard";
+
+export const metadata: Metadata = { title: "Simulator" };
+
+export default function SimulatorPage() {
+  return <SimulatorDashboard />;
 }

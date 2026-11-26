@@ -36,8 +36,36 @@
   --adjusted: var(--ash);
 }
 
+:root {
+  --panel: var(--surface-soft);
+  --brand: var(--chart);
+  --brand-ink: var(--green);
+  --brand-soft: color-mix(in srgb, var(--green) 9%, var(--surface));
+  --signal: var(--chart);
+  --signal-ink: var(--green);
+  --clear: var(--adjusted);
+  --clear-ink: var(--muted);
+  --neutral: var(--ash);
+  --coating: var(--adjusted);
+  --coating-soft: var(--surface-soft);
+  --card-radius: 1rem;
+  --control-radius: 0.5rem;
+  --pop-shadow: 0 0.75rem 2rem -1rem var(--muted);
+}
+
 @theme inline {
   --color-ink: var(--ink);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+  --color-signal: var(--signal);
+  --color-signal-ink: var(--signal-ink);
+  --color-clear: var(--clear);
+  --color-clear-ink: var(--clear-ink);
+  --color-coating: var(--coating);
+  --color-coating-soft: var(--coating-soft);
+  --color-neutral: var(--neutral);
+  --color-panel: var(--panel);
   --color-muted: var(--muted);
   --color-green: var(--green);
   --color-line: var(--line);
@@ -57,25 +85,92 @@
 }
 
 @layer base {
-  html { @apply overflow-x-clip scroll-smooth scroll-pt-5 motion-reduce:scroll-auto; }
-  body { @apply overflow-x-clip bg-paper font-sans text-ink tabular-nums; }
-  h1,h2,h3 { @apply min-w-0 font-display font-bold text-balance; }
-  h1 { @apply text-4xl tracking-tight md:text-5xl; }
-  h2 { @apply text-2xl leading-tight tracking-tight md:text-3xl; }
-  h3 { @apply mt-5 mb-2 text-xl; }
-  button,select,input:not([type="range"]) { @apply rounded-lg border border-control-border bg-surface px-3 py-2 text-ink; }
-  button { @apply inline-flex min-h-11 cursor-pointer items-center gap-2 text-sm hover:border-green; }
-  select { @apply mt-1 block min-h-11 max-w-full; }
-  label { @apply block text-sm font-semibold; }
-  input[type="range"] { @apply w-full accent-green; }
-  input[type="number"] { @apply w-24; }
-  table { @apply w-full border-collapse text-sm; }
-  th,td { @apply border-b border-line p-3 text-left; }
-  thead { @apply sticky top-0 bg-surface-soft; }
-  details { @apply mt-4 border-t border-line pt-3; }
-  details p { @apply py-3 text-muted; }
-  summary { @apply cursor-pointer font-semibold text-green; }
-  :focus-visible { @apply outline-2 outline-offset-2 outline-green; }
-  ::selection { @apply bg-dust text-onyx; }
-  .recharts-cartesian-axis-tick-value { @apply fill-muted; }
+  html {
+    @apply overflow-x-clip scroll-smooth scroll-pt-5 motion-reduce:scroll-auto;
+  }
+  body {
+    @apply overflow-x-clip bg-paper font-sans text-ink tabular-nums;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply min-w-0 font-display font-bold text-balance;
+  }
+  h1 {
+    @apply text-4xl tracking-tight md:text-5xl;
+  }
+  h2 {
+    @apply text-2xl leading-tight tracking-tight md:text-3xl;
+  }
+  h3 {
+    @apply mt-5 mb-2 text-xl;
+  }
+  button,
+  summary,
+  select {
+    @apply cursor-pointer;
+  }
+  select option {
+    @apply bg-surface text-ink;
+  }
+  button:disabled {
+    @apply cursor-default;
+  }
+  label:has(select:focus-visible) {
+    @apply rounded-lg outline-2 outline-offset-2 outline-green;
+  }
+  input[type="range"] {
+    @apply accent-green;
+  }
+  .recharts-text {
+    font-size: 0.8rem;
+  }
+  .legacy button,
+  .legacy select,
+  .legacy input:not([type="range"]) {
+    @apply rounded-lg border border-control-border bg-surface px-3 py-2 text-ink;
+  }
+  .legacy button {
+    @apply inline-flex min-h-11 cursor-pointer items-center gap-2 text-sm hover:border-green;
+  }
+  .legacy select {
+    @apply mt-1 block min-h-11 max-w-full;
+  }
+  .legacy label {
+    @apply block text-sm font-semibold;
+  }
+  .legacy input[type="range"] {
+    @apply w-full accent-green;
+  }
+  .legacy input[type="number"] {
+    @apply w-24;
+  }
+  .legacy table {
+    @apply w-full border-collapse text-sm;
+  }
+  .legacy th,
+  .legacy td {
+    @apply border-b border-line p-3 text-left;
+  }
+  .legacy thead {
+    @apply sticky top-0 bg-surface-soft;
+  }
+  .legacy details {
+    @apply mt-4 border-t border-line pt-3;
+  }
+  .legacy details p {
+    @apply py-3 text-muted;
+  }
+  .legacy summary {
+    @apply cursor-pointer font-semibold text-green;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-green;
+  }
+  ::selection {
+    @apply bg-dust text-onyx;
+  }
+  .recharts-cartesian-axis-tick-value {
+    @apply fill-muted;
+  }
 }

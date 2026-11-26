@@ -122,7 +122,9 @@ export function DecisionTable({
   return (
     <>
       <h2>{t("Onde atuar primeiro?", "Where to act first?")}</h2>
-      <p className="my-4 border-s-4 border-chart bg-surface-soft px-4 py-3 font-semibold">{priority}</p>
+      <p className="my-4 border-s-4 border-chart bg-surface-soft px-4 py-3 font-semibold">
+        {priority}
+      </p>
       <div className="max-h-84 overflow-auto">
         <table>
           <thead>

@@ -332,7 +332,10 @@ export function Simulator({
               onChange={(priceChange) => s.change({ priceChange })}
             />
           </div>
-          <div className="min-w-0 rounded-xl bg-surface-soft p-5 [&_strong]:text-4xl [&_dl]:my-4 [&_dl]:grid [&_dl]:grid-cols-[1fr_auto] [&_dl]:gap-2 [&_dd]:font-semibold" aria-live="polite">
+          <div
+            className="min-w-0 rounded-xl bg-surface-soft p-5 [&_strong]:text-4xl [&_dl]:my-4 [&_dl]:grid [&_dl]:grid-cols-[1fr_auto] [&_dl]:gap-2 [&_dd]:font-semibold"
+            aria-live="polite"
+          >
             <p className="mb-2 flex items-center gap-2 text-sm font-semibold">
               {t("Variação da contribuição", "Change in contribution")}
             </p>
