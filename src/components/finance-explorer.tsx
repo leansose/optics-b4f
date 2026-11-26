@@ -119,8 +119,8 @@ export function FinanceExplorer({ finance: f }: { finance: Finance }) {
           ))}
         </ul>
         <p className="mt-4 text-xs text-muted">
-          Amounts in the file’s monetary units (currency not stated). Contribution
-          = order value − production − logistics − estimated incident cost.
+          Amounts shown in € (source currency not stated). Contribution = order
+          value − production − logistics − estimated incident cost.
         </p>
       </section>
 

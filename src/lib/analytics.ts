@@ -17,7 +17,7 @@ export const number = (v: number, digits = 0) =>
     minimumFractionDigits: digits,
     maximumFractionDigits: digits,
   });
-export const money = (cents: number) => number(cents / 100, 2);
+export const money = (cents: number) => `${number(cents / 100, 2)} €`;
 const cents = (n: number) => Math.round(n * 100);
 export const emptyTotals = (): Totals => ({
   orders: 0,

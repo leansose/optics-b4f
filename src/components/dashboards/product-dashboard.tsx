@@ -13,7 +13,7 @@ import { FilterDropdown } from "@/components/filter-dropdown";
 import { Card, PageShell } from "@/components/page-shell";
 import { Stat } from "@/components/stat";
 import { useFilters } from "@/lib/filters";
-import { fmtInt, fmtPct, fmtUnits } from "@/lib/format";
+import { CURRENCY_SYMBOL, fmtInt, fmtPct, fmtUnits } from "@/lib/format";
 import { useI18n } from "@/lib/i18n";
 import {
   CATEGORIES,
@@ -383,6 +383,7 @@ export function ProductDashboard() {
                 placeholder={t("product.max")}
                 className="w-14 bg-transparent tabular-nums text-ink outline-none placeholder:text-muted"
               />
+              <span className="text-xs text-muted">{CURRENCY_SYMBOL}</span>
             </label>
           </div>
           <button
