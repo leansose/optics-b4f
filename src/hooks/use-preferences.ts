@@ -1,13 +1,24 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { create } from "zustand";
 
 export type Language = "pt" | "en";
 export type Theme = "light" | "dark";
 
+const useSettings = create<{
+  language: Language;
+  theme: Theme;
+  setLanguage: (v: Language) => void;
+  setTheme: (v: Theme) => void;
+}>((set) => ({
+  language: "pt",
+  theme: "light",
+  setLanguage: (language) => set({ language }),
+  setTheme: (theme) => set({ theme }),
+}));
 export function usePreferences() {
-  const [language, setLanguage] = useState<Language>("pt");
-  const [theme, setTheme] = useState<Theme>("light");
+  const { language, theme, setLanguage, setTheme } = useSettings();
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -21,7 +32,7 @@ export function usePreferences() {
       // The controls still work when browser storage is unavailable.
     }
     setReady(true);
-  }, []);
+  }, [setLanguage, setTheme]);
 
   useEffect(() => {
     if (!ready) return;
