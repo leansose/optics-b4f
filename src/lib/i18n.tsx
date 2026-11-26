@@ -113,7 +113,7 @@ const en = {
   "finance.noOrdersSelection": "No delivered orders for this selection.",
   "finance.noOrdersFilters": "No delivered orders for these filters.",
   "finance.currencyNote":
-    "Currency units as in the source files (currency not stated). Production is the only cost with two possible interpretations.",
+    "Amounts are shown in €; the source files did not state a currency. Production is the only cost with two possible interpretations.",
   "finance.modeOrder": "Cost per order",
   "finance.modeLens": "Cost per lens",
   "finance.cardInspect": "Inspect one order",
@@ -139,7 +139,7 @@ const en = {
   "product.max": "max",
   "product.clearTable": "Clear table filters",
   "product.visible": "{shown} of {total} lenses · {orders} orders in view",
-  "product.sortHint": "Click a column heading to sort · amounts in file units",
+  "product.sortHint": "Click a column heading to sort · amounts in €",
   "product.caption":
     "Product catalogue with order and cost metrics for the current filters",
   "product.noMatch": "No lens matches these filters.",
@@ -437,7 +437,7 @@ const pt: Record<TranslationKey, string> = {
   "finance.noOrdersSelection": "Sem encomendas entregues para esta seleção.",
   "finance.noOrdersFilters": "Sem encomendas entregues para estes filtros.",
   "finance.currencyNote":
-    "Unidades monetárias conforme os ficheiros de origem (moeda não indicada). A produção é o único custo com duas interpretações possíveis.",
+    "Os valores são apresentados em €; os ficheiros de origem não indicavam a moeda. A produção é o único custo com duas interpretações possíveis.",
   "finance.modeOrder": "Custo por encomenda",
   "finance.modeLens": "Custo por lente",
   "finance.cardInspect": "Inspecionar uma encomenda",
@@ -464,7 +464,7 @@ const pt: Record<TranslationKey, string> = {
   "product.clearTable": "Limpar filtros da tabela",
   "product.visible": "{shown} de {total} lentes · {orders} encomendas visíveis",
   "product.sortHint":
-    "Clique no título de uma coluna para ordenar · valores nas unidades dos ficheiros",
+    "Clique no título de uma coluna para ordenar · valores em €",
   "product.caption":
     "Catálogo de produtos com métricas de encomendas e custos para os filtros atuais",
   "product.noMatch": "Nenhuma lente corresponde a estes filtros.",

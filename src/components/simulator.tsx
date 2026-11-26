@@ -189,8 +189,8 @@ export function Simulator({
           </dl>
           <small>
             {t(
-              "Simulação a volume constante, em unidades monetárias da fonte. A unidade do custo de produção está por confirmar.",
-              "Simulation at constant volume, in the source monetary units. The production cost unit remains to be confirmed.",
+              "Simulação a volume constante, em € (a moeda não era indicada na fonte). A unidade do custo de produção está por confirmar.",
+              "Simulation at constant volume, in € (source currency not stated). The production cost unit remains to be confirmed.",
             )}
           </small>
         </div>

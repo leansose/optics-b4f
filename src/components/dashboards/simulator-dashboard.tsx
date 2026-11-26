@@ -21,11 +21,11 @@ import { CHART, CHART_TICK, CHART_TOOLTIP } from "@/lib/chart-theme";
 import { type Agg, aggregate } from "@/lib/cube";
 import { useFilters } from "@/lib/filters";
 import {
+  fmtDecimal,
   fmtDeltaUnits,
   fmtInt,
   fmtMillions,
   fmtPct,
-  fmtUnits,
 } from "@/lib/format";
 import { type TranslationKey, useI18n } from "@/lib/i18n";
 
@@ -487,7 +487,7 @@ export function SimulatorDashboard() {
                       <span className="text-ink">
                         {t(row.target.labelKey)}{" "}
                         <span className="text-muted">
-                          {fmtUnits(row.effective, 1)}%
+                          {fmtDecimal(row.effective, 1)}%
                         </span>
                       </span>
                       <span
