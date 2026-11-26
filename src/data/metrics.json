@@ -1,0 +1,283 @@
+{
+  "period": "Jan 2024 – Dec 2025",
+  "network": {
+    "orders": 51374,
+    "delivered": 49343,
+    "affected": 2906,
+    "affectedRate": 0.056565577918791604,
+    "incidentCostLinked": 487986.75,
+    "shareA": 0.3359481449760579,
+    "costShareA": 0.8076573800415687
+  },
+  "quality": {
+    "groups": {
+      "L001-L012": {
+        "orders": 17259,
+        "affected": 1804,
+        "rate": 0.10452517527087317,
+        "cost": 394126.1,
+        "avgContribution": 88.49995843623878,
+        "prodDeviation": 0.5222011913748545
+      },
+      "L013-L020": {
+        "orders": 7110,
+        "affected": 208,
+        "rate": 0.029254571026722926,
+        "cost": 17463.340000000004,
+        "avgContribution": 180.24437234510035,
+        "prodDeviation": 0.03553666590675286
+      },
+      "others": {
+        "orders": 27005,
+        "affected": 894,
+        "rate": 0.033104980559155714,
+        "cost": 76397.31,
+        "avgContribution": 78.31114682616246,
+        "prodDeviation": 0.03452068635543171
+      }
+    },
+    "ratio": 3.235822463126895,
+    "rateA": 0.10452517527087317,
+    "rateRest": 0.032302506228931556,
+    "l001": {
+      "orders": 1488,
+      "affected": 183,
+      "cost": 39953.69
+    },
+    "opticians": [
+      {
+        "id": "O04",
+        "name": "Coimbra",
+        "orders": 7008,
+        "shareA": 0.8490296803652968,
+        "affected": 655,
+        "observed": 0.09346461187214612,
+        "adjusted": 0.05612019964356282,
+        "contribution": 610523.25
+      },
+      {
+        "id": "O07",
+        "name": "Setubal",
+        "orders": 6220,
+        "shareA": 0.12138263665594855,
+        "affected": 236,
+        "observed": 0.037942122186495175,
+        "adjusted": 0.05105127820940748,
+        "contribution": 586071.29
+      },
+      {
+        "id": "O01",
+        "name": "Lisboa",
+        "orders": 6063,
+        "shareA": 0.0996206498433119,
+        "affected": 230,
+        "observed": 0.03793501566881082,
+        "adjusted": 0.051448409488116034,
+        "contribution": 564241.4199999999
+      },
+      {
+        "id": "O10",
+        "name": "Viseu",
+        "orders": 4990,
+        "shareA": 0.5521042084168337,
+        "affected": 390,
+        "observed": 0.0781563126252505,
+        "adjusted": 0.05959943024402525,
+        "contribution": 441073.95999999996
+      },
+      {
+        "id": "O06",
+        "name": "Aveiro",
+        "orders": 4567,
+        "shareA": 0.5095248522005693,
+        "affected": 303,
+        "observed": 0.06634552222465513,
+        "adjusted": 0.05418940679304693,
+        "contribution": 423401.13
+      },
+      {
+        "id": "O03",
+        "name": "Braga",
+        "orders": 4230,
+        "shareA": 0.2581560283687943,
+        "affected": 210,
+        "observed": 0.04964539007092199,
+        "adjusted": 0.05526223813279731,
+        "contribution": 391177.18
+      },
+      {
+        "id": "O02",
+        "name": "Porto",
+        "orders": 3921,
+        "shareA": 0.08365212955878602,
+        "affected": 157,
+        "observed": 0.04004080591685794,
+        "adjusted": 0.052491030137992785,
+        "contribution": 377392.99
+      },
+      {
+        "id": "O12",
+        "name": "Funchal",
+        "orders": 3739,
+        "shareA": 0.22144958545065527,
+        "affected": 178,
+        "observed": 0.04760631184808772,
+        "adjusted": 0.054445387032691445,
+        "contribution": 354679.12
+      },
+      {
+        "id": "O05",
+        "name": "Faro",
+        "orders": 3493,
+        "shareA": 0.3028914972802748,
+        "affected": 201,
+        "observed": 0.057543658746063556,
+        "adjusted": 0.059731230286634567,
+        "contribution": 322568.94
+      },
+      {
+        "id": "O08",
+        "name": "Guimaraes",
+        "orders": 3124,
+        "shareA": 0.1939820742637644,
+        "affected": 142,
+        "observed": 0.045454545454545456,
+        "adjusted": 0.054352914016731126,
+        "contribution": 293557.82999999996
+      },
+      {
+        "id": "O09",
+        "name": "Leiria",
+        "orders": 2117,
+        "shareA": 0.1067548417572036,
+        "affected": 87,
+        "observed": 0.0410958904109589,
+        "adjusted": 0.061555271439183365,
+        "contribution": 198351.59999999998
+      },
+      {
+        "id": "O11",
+        "name": "Evora",
+        "orders": 1902,
+        "shareA": 0.38380651945320715,
+        "affected": 117,
+        "observed": 0.061514195583596214,
+        "adjusted": 0.05871084631479039,
+        "contribution": 166110.8
+      }
+    ],
+    "coimbra": {
+      "id": "O04",
+      "name": "Coimbra",
+      "orders": 7008,
+      "shareA": 0.8490296803652968,
+      "affected": 655,
+      "observed": 0.09346461187214612,
+      "adjusted": 0.05612019964356282,
+      "contribution": 610523.25
+    }
+  },
+  "finance": {
+    "delivered": 49343,
+    "orderValue": 11530672.98,
+    "production": 5935261.399999999,
+    "productionPerLens": 8150475.129999999,
+    "logistics": 400379.50000000006,
+    "incidents": 465882.57,
+    "contribOrder": 4729149.51,
+    "contribLens": 2513935.78,
+    "negOrder": 3805,
+    "negLens": 4760,
+    "lowPrice": {
+      "n": 1429,
+      "neg": 923,
+      "highN": 47914,
+      "highNeg": 2882
+    },
+    "example": {
+      "code": "2024/000017",
+      "store": "Lisboa",
+      "model": "L011",
+      "qty": 2,
+      "value": 533.6,
+      "production": 241.04,
+      "logistics": 5.22,
+      "incident": 47.53,
+      "contribOrder": 239.81000000000003,
+      "contribLens": -1.2299999999999613
+    }
+  },
+  "logistics": {
+    "deliveredTotal": 49343,
+    "buckets": {
+      "onTime": 20898,
+      "oneDay": 20979,
+      "twoPlus": 7466
+    },
+    "twoPlusShare": 0.15130818961149506,
+    "twoPlusDelayDaysShare": 0.6610933410875255,
+    "monthly": {
+      "2024": [
+        1989,
+        1923,
+        2134,
+        1978,
+        1998,
+        2043,
+        1585,
+        1545,
+        2064,
+        2069,
+        3183,
+        3314
+      ],
+      "2025": [
+        2029,
+        1943,
+        2029,
+        1901,
+        2120,
+        1960,
+        1541,
+        1560,
+        2017,
+        1966,
+        3240,
+        3243
+      ]
+    },
+    "perDayNovDec": {
+      "y2024": 106.50819672131148,
+      "y2025": 106.27868852459017
+    },
+    "perDayJulAug": {
+      "y2024": 50.483870967741936,
+      "y2025": 50.016129032258064
+    },
+    "novDecOrders": {
+      "y2024": 6497,
+      "y2025": 6483
+    }
+  },
+  "dataQuality": {
+    "rawRows": 52401,
+    "duplicates": 1027,
+    "duplicateValue": 241688.63,
+    "unlinkedIncidents": 185,
+    "unlinkedCost": 29736.689999999995,
+    "totalIncidents": 3201,
+    "codeFormats": {
+      "ENC000001": 17125,
+      "2024/000002": 17125,
+      "ENC-2024-000003": 17124
+    },
+    "qtyExceeds": 305,
+    "returnsBeforeDelivery": 402,
+    "returnsDelivered": 860,
+    "missingMotive": 377,
+    "missingResolution": 564,
+    "feedbackTotal": 4215,
+    "feedbackNoOrder": 2539,
+    "feedbackBeforeOrder": 868
+  }
+}

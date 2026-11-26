@@ -34,3 +34,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Opticmizer pages
+
+Four one-screen pages: `/` (quality), `/finance`, `/product`, `/simulator`.
+Filters (shop, year, model group) sit under the header and apply to every page.
+Use ← / → to move between pages while not typing in a control. Charts use Recharts
+with a blue `#42a5f5` brand identity.
+
+The Product page has its own search, category/treatment/complexity/price filters
+and sortable columns on top of the shared filters.
+
+The Simulator replaces the old data-quality page. Add as many ranges as needed,
+type a percentage or drag the slider, and pick the driver each range changes
+(order value, production/logistics/incident cost, or delivered orders). Profit
+updates live for the current filters.
+
+Data is pre-aggregated from `public/data/lentes/csv` into `src/data/cube.json`
+(used by the filters), `src/data/metrics.json` and `src/data/products.json`:
+
+```bash
+python3 scripts/build-metrics.py
+npm run build-products   # Node version: no Python needed
+```
